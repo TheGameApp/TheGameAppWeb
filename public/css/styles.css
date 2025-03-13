@@ -1,0 +1,464 @@
+/* Importación de fuentes locales */
+/* Open Sans (mantenemos esta fuente como respaldo) */
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Familia Clash Display */
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("../fonts/ClashDisplay-Extralight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("../fonts/ClashDisplay-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("../fonts/ClashDisplay-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("../fonts/ClashDisplay-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("../fonts/ClashDisplay-Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("../fonts/ClashDisplay-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-font: "ClashDisplay", sans-serif;
+  --secondary-font: "ClashDisplay", sans-serif;
+  --local-font: "ClashDisplay", "OpenSans", sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+}
+
+p {
+  font-family: var(--local-font);
+  font-weight: 400;
+}
+
+/* Estilos específicos para elementos con diferentes pesos de fuente */
+.light-text {
+  font-weight: 300;
+}
+
+.medium-text {
+  font-weight: 500;
+}
+
+.semibold-text {
+  font-weight: 600;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+/* Encabezado */
+header {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 1rem 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  height: 30px;
+  width: auto;
+  margin-right: 8px;
+}
+
+.logo-text {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+.logo-trademark {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 0.7rem;
+  color: #000000;
+  align-self: flex-start;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 1.5rem;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+nav ul li a.active {
+  color: #ff4d4d;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  color: #ff4d4d;
+}
+
+.download-button {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-left: 2rem;
+}
+
+.download-button:hover {
+  background-color: #333333;
+  transform: translateY(-2px);
+}
+
+.star-icon {
+  margin-left: 1.5rem;
+}
+
+/* Responsive para la cabecera */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .logo {
+    margin-bottom: 1rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  nav ul li {
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+
+  .download-button {
+    margin-left: 0;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .star-icon {
+    display: none;
+  }
+}
+
+/* Estilos para pantallas medianas */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header-container {
+    padding: 0 1rem;
+  }
+
+  nav ul li {
+    margin: 0 0.8rem;
+  }
+
+  .download-button {
+    margin-left: 1rem;
+    padding: 0.7rem 1.2rem;
+  }
+}
+
+/* Contenido principal */
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  min-height: 70vh;
+}
+
+/* Pie de página */
+footer {
+  background-color: #35424a;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Botones */
+.btn {
+  display: inline-block;
+  background-color: #e8491d;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #c13c17;
+}
+
+/* Vista Home */
+.home-container {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.feature {
+  flex: 1;
+  background-color: white;
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  min-width: 250px;
+}
+
+.feature h3 {
+  color: #35424a;
+  margin-bottom: 1rem;
+}
+
+/* Vista About */
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-section {
+  margin: 2rem 0;
+}
+
+.about-section h3 {
+  color: #35424a;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #e8491d;
+  padding-bottom: 0.5rem;
+}
+
+.about-section ul {
+  margin-left: 2rem;
+}
+
+/* Vista Contact */
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.message-container {
+  margin-top: 1.5rem;
+}
+
+.success-message {
+  background-color: #4caf50;
+  color: white;
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+.error-message {
+  background-color: #f44336;
+  color: white;
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+  }
+
+  .feature {
+    margin: 1rem 0;
+  }
+}
+
+/* Estilos para imágenes y assets */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Estilos para el logo en la cabecera */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 40px;
+  width: auto;
+}
+
+/* Contenedores con relación de aspecto para imágenes */
+.img-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.img-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Relaciones de aspecto comunes */
+.aspect-16-9 {
+  padding-top: 56.25%; /* 9/16 = 0.5625 */
+}
+
+.aspect-4-3 {
+  padding-top: 75%; /* 3/4 = 0.75 */
+}
+
+.aspect-1-1 {
+  padding-top: 100%; /* Cuadrado */
+}

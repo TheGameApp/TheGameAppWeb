@@ -1,0 +1,6 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Símbolo de fuego estilizado -->
+  <path d="M20 5C18.5 8 15.5 11 13 13C10.5 15 8 18 8 22C8 28.6 13.4 34 20 34C26.6 34 32 28.6 32 22C32 18 29.5 15 27 13C24.5 11 21.5 8 20 5Z" fill="#FF4D4D"/>
+  <!-- Detalle interior del fuego -->
+  <path d="M20 10C19 12 17 14 15.5 15.5C14 17 12.5 19 12.5 22C12.5 26.1 15.9 29.5 20 29.5C24.1 29.5 27.5 26.1 27.5 22C27.5 19 26 17 24.5 15.5C23 14 21 12 20 10Z" fill="#FF7777"/>
+</svg> 
