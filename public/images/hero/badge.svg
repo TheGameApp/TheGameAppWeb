@@ -1,0 +1,12 @@
+<svg width="300" height="120" viewBox="0 0 300 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="300" height="120" rx="20" fill="#000000"/>
+  <rect x="10" y="10" width="280" height="100" rx="15" fill="#FF4D4D"/>
+  
+  <text x="20" y="40" font-family="ClashDisplay" font-weight="700" font-size="16" fill="#FFFFFF">Achievements</text>
+  <text x="20" y="65" font-family="ClashDisplay" font-weight="500" font-size="14" fill="#FFFFFF">Best Social Skills App On Playstore</text>
+  
+  <circle cx="270" cy="40" r="15" fill="#FFFFFF"/>
+  <text x="270" y="45" font-family="ClashDisplay" font-weight="700" font-size="16" fill="#000000" text-anchor="middle">1</text>
+  
+  <text x="20" y="95" font-family="ClashDisplay" font-weight="700" font-size="16" fill="#FFFFFF">Make The Best Social Connections</text>
+</svg> 

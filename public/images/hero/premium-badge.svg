@@ -1,0 +1,8 @@
+<svg width="200" height="80" viewBox="0 0 200 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="200" height="80" rx="15" fill="#FF4D4D"/>
+  
+  <text x="20" y="35" font-family="ClashDisplay" font-weight="700" font-size="16" fill="#FFFFFF">TheGame Premium</text>
+  <text x="20" y="60" font-family="ClashDisplay" font-weight="500" font-size="14" fill="#FFFFFF">Free Trial</text>
+  
+  <path d="M170 20L175 30H185L177 36L182 46L170 40L158 46L163 36L155 30H165L170 20Z" fill="#FFFFFF"/>
+</svg> 

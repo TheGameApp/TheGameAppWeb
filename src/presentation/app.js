@@ -20,6 +20,9 @@ class App {
 
         // Configurar eventos de navegación
         this.setupNavigation();
+
+        // Manejo del menú móvil
+        this.setupMobileMenu();
     }
 
     initDependencies() {
@@ -64,10 +67,66 @@ class App {
             this.router.navigateTo('about');
         });
 
-        document.getElementById('contact-link').addEventListener('click', (e) => {
+        document.getElementById('contact-link')?.addEventListener('click', (e) => {
             e.preventDefault();
             this.router.navigateTo('contact');
         });
+
+        // Soporte para el enlace de features
+        document.getElementById('features-link')?.addEventListener('click', (e) => {
+            e.preventDefault();
+            // Por ahora, redirigir a home ya que no tenemos una vista de features
+            this.router.navigateTo('home');
+            console.log('Features link clicked - redirecting to home for now');
+        });
+
+        // Soporte para el enlace de pricing
+        document.getElementById('pricing-link')?.addEventListener('click', (e) => {
+            e.preventDefault();
+            // Por ahora, redirigir a home ya que no tenemos una vista de pricing
+            this.router.navigateTo('home');
+            console.log('Pricing link clicked - redirecting to home for now');
+        });
+    }
+
+    setupMobileMenu() {
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        const body = document.body;
+
+        if (mobileMenuToggle && navLinks) {
+            // Toggle menu on button click
+            mobileMenuToggle.addEventListener('click', (e) => {
+                e.stopPropagation();
+                mobileMenuToggle.classList.toggle('active');
+                navLinks.classList.toggle('active');
+                body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : '';
+            });
+
+            // Close menu when clicking on a link
+            const navItems = navLinks.querySelectorAll('a');
+            navItems.forEach(item => {
+                item.addEventListener('click', () => {
+                    mobileMenuToggle.classList.remove('active');
+                    navLinks.classList.remove('active');
+                    body.style.overflow = '';
+                });
+            });
+
+            // Close menu when clicking outside
+            document.addEventListener('click', (e) => {
+                if (!navLinks.contains(e.target) && !mobileMenuToggle.contains(e.target) && navLinks.classList.contains('active')) {
+                    mobileMenuToggle.classList.remove('active');
+                    navLinks.classList.remove('active');
+                    body.style.overflow = '';
+                }
+            });
+
+            // Prevent menu from closing when clicking inside
+            navLinks.addEventListener('click', (e) => {
+                e.stopPropagation();
+            });
+        }
     }
 }
 
