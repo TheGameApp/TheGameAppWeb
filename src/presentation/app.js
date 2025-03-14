@@ -1,4 +1,5 @@
 import { Router } from './components/Router.js';
+import i18n from '../../public/js/i18n/i18n.js';
 
 /**
  * Clase App
@@ -16,6 +17,9 @@ class App {
 
         // Manejo del menú móvil
         this.setupMobileMenu();
+
+        // Configurar internacionalización
+        this.setupI18n();
 
         console.log('App initialization completed');
     }
@@ -64,6 +68,7 @@ class App {
                 mobileMenuToggle.classList.toggle('active');
                 navLinks.classList.toggle('active');
                 body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : '';
+                body.classList.toggle('mobile-menu-open', navLinks.classList.contains('active'));
                 console.log('Menu state after click:', {
                     menuToggleActive: mobileMenuToggle.classList.contains('active'),
                     navLinksActive: navLinks.classList.contains('active'),
@@ -79,6 +84,7 @@ class App {
                     console.log('Nav item clicked - closing menu');
                     mobileMenuToggle.classList.remove('active');
                     navLinks.classList.remove('active');
+                    body.classList.remove('mobile-menu-open');
                     body.style.overflow = '';
                 });
             });
@@ -89,6 +95,7 @@ class App {
                     console.log('Clicking outside menu - closing');
                     mobileMenuToggle.classList.remove('active');
                     navLinks.classList.remove('active');
+                    body.classList.remove('mobile-menu-open');
                     body.style.overflow = '';
                 }
             });
@@ -105,6 +112,28 @@ class App {
             });
         }
         console.log('Setting up mobile menu - complete');
+    }
+
+    setupI18n() {
+        console.log('Setting up internationalization');
+
+        // Escuchar eventos de cambio de idioma
+        window.addEventListener('languageChanged', (event) => {
+            console.log(`Language changed to: ${event.detail}`);
+
+            // Actualizar el atributo lang del HTML
+            document.documentElement.lang = event.detail;
+
+            // Actualizar clases activas en los botones de idioma
+            document.querySelectorAll('.language-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.getAttribute('data-lang') === event.detail);
+            });
+        });
+
+        // Aplicar traducciones iniciales
+        i18n.applyTranslations();
+
+        console.log('Current language:', i18n.currentLanguage);
     }
 }
 

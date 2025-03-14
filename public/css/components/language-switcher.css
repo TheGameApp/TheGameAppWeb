@@ -1,0 +1,61 @@
+/* Language Switcher Styles */
+.language-switcher {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  position: relative;
+  z-index: var(--z-index-dropdown);
+}
+
+.language-btn {
+  background: transparent;
+  border: 1px solid var(--color-lavender);
+  color: var(--color-gray-dark);
+  font-family: var(--primary-font);
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.3rem 0.6rem;
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  transition: var(--transition-fast);
+  margin: 0 0.2rem;
+}
+
+.language-btn:hover {
+  background-color: var(--color-lavender-light);
+  transform: translateY(-2px);
+}
+
+.language-btn.active {
+  background: linear-gradient(135deg, var(--color-lavender), var(--color-cyan));
+  color: var(--color-white);
+  border-color: transparent;
+  box-shadow: var(--shadow-sm);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .language-switcher {
+    position: absolute;
+    top: 1rem;
+    right: 5rem;
+  }
+
+  .language-btn {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .language-switcher {
+    right: 4rem;
+  }
+}
+
+/* Mobile menu open state */
+.mobile-menu-open .language-switcher {
+  position: static;
+  margin: 1rem auto;
+  justify-content: center;
+}
