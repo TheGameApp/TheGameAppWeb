@@ -22,28 +22,20 @@ export class Router {
     }
 
     init() {
-        this.handleRouteChange();
-    }
-
-    handleRouteChange() {
-        // Obtener la ruta actual del hash de la URL
+        // Solo inicializamos las rutas sin intentar renderizar
         let path = window.location.hash.slice(1);
-
-        // Si no hay ruta, usar la ruta por defecto
         if (!path || !this.routes[path]) {
             path = this.defaultRoute;
             window.location.hash = `#${path}`;
         }
+    }
 
-        // Obtener la vista correspondiente a la ruta
-        const view = this.routes[path];
-
-        // Renderizar la vista
-        if (view) {
-            if (this.currentView !== view) {
-                this.currentView = view;
-                view.render();
-            }
+    handleRouteChange() {
+        // Solo manejamos el cambio de ruta sin intentar renderizar
+        let path = window.location.hash.slice(1);
+        if (!path || !this.routes[path]) {
+            path = this.defaultRoute;
+            window.location.hash = `#${path}`;
         }
     }
 
