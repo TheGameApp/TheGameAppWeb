@@ -1,0 +1,67 @@
+/* Variables globales */
+:root {
+  /* Fuentes */
+  --primary-font: "ClashDisplay", sans-serif;
+  --secondary-font: "ClashDisplay", sans-serif;
+  --local-font: "ClashDisplay", "OpenSans", sans-serif;
+
+  /* Colores */
+  --color-lavender: #8a7cff;
+  --color-cyan: #4deeea;
+  --color-purple: #6a5acd;
+  --color-teal: #20b2aa;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-gray-light: #f4f4f4;
+  --color-gray-medium: #666666;
+  --color-gray-dark: #333333;
+
+  /* Gradientes */
+  --gradient-primary: linear-gradient(
+    135deg,
+    var(--color-lavender),
+    var(--color-purple)
+  );
+  --gradient-secondary: linear-gradient(
+    135deg,
+    var(--color-purple),
+    var(--color-lavender)
+  );
+  --gradient-cta: linear-gradient(to right, #ffffff, var(--color-lavender));
+  --gradient-title: linear-gradient(to right, #000000, var(--color-purple));
+
+  /* Sombras */
+  --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 15px rgba(138, 124, 255, 0.3);
+  --shadow-lg: 0 10px 30px rgba(138, 124, 255, 0.1);
+  --shadow-xl: 0 15px 40px rgba(138, 124, 255, 0.2);
+
+  /* Bordes */
+  --border-radius-sm: 3px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 16px;
+  --border-radius-xl: 30px;
+  --border-radius-full: 50%;
+
+  /* Espaciado */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-xxl: 4rem;
+
+  /* Transiciones */
+  --transition-fast: all 0.3s ease;
+  --transition-medium: all 0.5s ease;
+  --transition-slow: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  /* Tamaños de contenedor */
+  --container-max-width: 1200px;
+
+  /* Z-index */
+  --z-index-header: 1000;
+  --z-index-nav: 999;
+  --z-index-content: 2;
+  --z-index-background: 1;
+}

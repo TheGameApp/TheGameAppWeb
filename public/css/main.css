@@ -1,0 +1,27 @@
+/* TheGameApp - Archivo CSS principal */
+
+/* Base */
+@import "base/variables.css";
+@import "base/reset.css";
+@import "base/typography.css";
+
+/* Layout */
+@import "layout/header.css";
+@import "layout/footer.css";
+@import "layout/grid.css";
+
+/* Componentes */
+@import "components/buttons.css";
+@import "components/navigation.css";
+@import "components/cards.css";
+
+/* Secciones */
+@import "sections/hero.css";
+@import "sections/features.css";
+@import "sections/testimonials.css";
+@import "sections/cta.css";
+
+/* Utilidades */
+@import "utils/animations.css";
+@import "utils/responsive.css";
+@import "utils/helpers.css";
