@@ -99,7 +99,7 @@ const translations = {
         nav_download: "Descargar",
 
         // Sección Hero
-        hero_title: "Domina <span>El Arte</span> de las Conexiones Sociales",
+        hero_title: "Domina <span>El Juego</span> de las Conexiones Sociales",
         hero_description: "Mejora tus habilidades sociales y de citas con TheGameApp. Aprende a crear conexiones significativas, responder con confianza a las interacciones y convertirte en un maestro de la atracción.",
         hero_button_primary: "Comenzar →",
         hero_button_secondary: "Ver Video",
@@ -122,12 +122,12 @@ const translations = {
         advantage2_title: "Asistencia en Tiempo Real",
         advantage2_description: "Nunca te quedes atascado en una conversación de nuevo. Recibe sugerencias instantáneas y contextualmente apropiadas para cualquier situación social.",
         advantage3_title: "Seguimiento de Progreso",
-        advantage3_description: "Monitorea la mejora de tus habilidades sociales con análisis e información detallados. Observa cómo crece tu confianza mientras dominas el arte de la conexión.",
+        advantage3_description: "Monitorea la mejora de tus habilidades sociales con análisis e información detallados. Observa cómo crece tu confianza mientras dominas el juego de la conexión.",
 
         // Sección de Testimonios
         testimonials_label: "TESTIMONIOS",
         testimonials_title: "Lo que dicen nuestros usuarios",
-        testimonials_description: "Descubre cómo TheGameApp ha transformado la vida social de miles de usuarios en todo el mundo. Historias reales de personas reales que han dominado el arte de la conexión.",
+        testimonials_description: "Descubre cómo TheGameApp ha transformado la vida social de miles de usuarios en todo el mundo. Historias reales de personas reales que han dominado el juego de la conexión.",
 
         // Testimonio 1
         testimonial1_name: "Alex Johnson",
@@ -155,7 +155,7 @@ const translations = {
 
         // Sección CTA
         cta_title: "¿Listo para empezar?",
-        cta_description: "Descarga TheGameApp hoy y transforma tus interacciones sociales. Nuestras herramientas impulsadas por IA te ayudarán a crear conexiones significativas y dominar el arte de la atracción.",
+        cta_description: "Descarga TheGameApp hoy y transforma tus interacciones sociales. Nuestras herramientas impulsadas por IA te ayudarán a crear conexiones significativas y dominar el juego de la atracción.",
         cta_button: "Descargar en Play Store",
 
         // Pie de página
