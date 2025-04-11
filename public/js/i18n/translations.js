@@ -192,6 +192,90 @@ const translations = {
     terms_point_9_subpoint_9_title:
       "Consider accessibility for users with disabilities, according to Law N° 29973 (General Law on Persons with Disabilities).",
     terms_back_to_home: "← Back to home",
+
+    // Privacidad
+    privacy_title: "Privacy Policy",
+    privacy_intro: "This Privacy Policy describes...",
+    privacy_point_1_title: "1. Information We Collect:",
+    privacy_point_1_subpoint_1_title: "Information You Provide Directly:",
+    privacy_point_1_subpoint_1_header: "Information You Provide Directly:",
+    privacy_point_1_subpoint_1_paragraph_1:
+      "As stated in our Terms and Conditions...",
+    privacy_point_1_subpoint_1_paragraph_2:
+      "[**Here you need to specify the types of personal information...**]",
+    privacy_point_1_subpoint_1_list_1: "Account registration information...",
+    privacy_point_1_subpoint_1_list_2: "Profile information...",
+    privacy_point_1_subpoint_1_list_3: "User-generated content...",
+    privacy_point_1_subpoint_1_list_4: "Payment information...",
+    privacy_point_1_subpoint_1_list_5: "Communications with us...",
+    privacy_point_1_subpoint_2_title: "Information We Collect Automatically:",
+    privacy_point_1_subpoint_2_header: "Information We Collect Automatically:",
+    privacy_point_1_subpoint_2_paragraph_1:
+      "[**Here you need to detail the types of information collected automatically...**]",
+    privacy_point_1_subpoint_2_list_1: "Device information...",
+    privacy_point_1_subpoint_2_list_2: "Usage data...",
+    privacy_point_1_subpoint_2_list_3: "Location data...",
+    privacy_point_1_subpoint_2_list_4:
+      "Cookies and similar tracking technologies...",
+    privacy_point_1_subpoint_3_title: "Information from Third-Party Sources:",
+    privacy_point_1_subpoint_3_header: "Information from Third-Party Sources:",
+    privacy_point_1_subpoint_3_paragraph_1:
+      "[**If you receive information from third parties...**]",
+    privacy_point_2_title: "2. How We Use Your Information:",
+    privacy_point_2_subpoint_1_title: "To provide and maintain the Services.",
+    privacy_point_2_subpoint_2_title:
+      "To personalize your experience within the App.",
+    privacy_point_2_subpoint_3_title: "To process payments and transactions...",
+    privacy_point_2_subpoint_4_title: "To communicate with you...",
+    privacy_point_2_subpoint_5_title:
+      "To monitor and analyze usage of the Services...",
+    privacy_point_2_subpoint_6_title: "To enforce our Terms and Conditions.",
+    privacy_point_2_subpoint_7_title:
+      "To detect, prevent, and address technical issues...",
+    privacy_point_2_subpoint_8_title:
+      "[**Include any other specific ways you use user data.**]",
+    privacy_point_3_title: "3. Sharing Your Information:",
+    privacy_point_3_subpoint_1_title:
+      "**Other users:** If you participate in public areas...",
+    privacy_point_3_subpoint_2_title:
+      "**Service providers:** Third-party companies that provide services...",
+    privacy_point_3_subpoint_3_title:
+      "**Business partners:** [**If you share data with business partners...**]",
+    privacy_point_3_subpoint_4_title:
+      "**Legal authorities:** When required by law or legal process...",
+    privacy_point_3_subpoint_5_title:
+      "**In connection with a business transfer:** If we are involved...",
+    privacy_point_3_subpoint_6_title:
+      "[**Include any other categories of recipients of user data.**]",
+    privacy_point_4_title:
+      "4. Your Rights Regarding Your Data (as per Law N° 29733):",
+    privacy_point_4_intro: "As stated in our Terms and Conditions...",
+    privacy_point_4_subpoint_1_title:
+      "**Right of Access (Derecho de Acceso):** To be informed about...",
+    privacy_point_4_subpoint_2_title:
+      "**Right of Rectification (Derecho de Rectificación):** To update...",
+    privacy_point_4_subpoint_3_title:
+      "**Right of Cancellation (Derecho de Cancelación):** To request...",
+    privacy_point_4_subpoint_4_title:
+      "**Right of Opposition (Derecho de Oposición):** To object...",
+    privacy_point_4_outro: "To exercise these rights, please contact us...",
+    privacy_point_5_title: "5. Data Security:",
+    privacy_point_5_paragraph_1: "We implement reasonable security measures...",
+    privacy_point_6_title: "6. Data Retention:",
+    privacy_point_6_paragraph_1: "We will retain your personal information...",
+    privacy_point_7_title: "7. International Data Transfers:",
+    privacy_point_7_paragraph_1:
+      "[**If your data is transferred outside of Peru...**]",
+    privacy_point_8_title: "8. Links to Other Websites and Services:",
+    privacy_point_8_paragraph_1: "Our Services may contain links...",
+    privacy_point_9_title: "9. Changes to this Privacy Policy:",
+    privacy_point_9_paragraph_1: "We may update this Privacy Policy...",
+    privacy_point_10_title: "10. Contact Us:",
+    privacy_point_10_paragraph_1: "If you have any questions or concerns...",
+    privacy_point_10_email: "[Your Email Address]",
+    privacy_point_10_address:
+      "[Your Physical Address in Lima, Peru (optional)]",
+    terms_back_to_home: "← Back to home",
   },
 
   es: {
@@ -383,6 +467,99 @@ const translations = {
     terms_point_9_subpoint_8_title: "Accesibilidad:",
     terms_point_9_subpoint_9_title:
       "Considera la accesibilidad para usuarios con discapacidades, según la Ley N° 29973 (Ley General de la Persona con Discapacidad).",
+
+    // Privacidad
+    privacy_title: "Política de Privacidad",
+    privacy_intro: "Esta Política de Privacidad describe...",
+    privacy_point_1_title: "1. Información que Recopilamos:",
+    privacy_point_1_subpoint_1_title:
+      "Información que Proporcionas Directamente:",
+    privacy_point_1_subpoint_1_header:
+      "Información que Proporcionas Directamente:",
+    privacy_point_1_subpoint_1_paragraph_1:
+      "Como se indica en nuestros Términos y Condiciones...",
+    privacy_point_1_subpoint_1_paragraph_2:
+      "[**Aquí debes especificar los tipos de información personal...**]",
+    privacy_point_1_subpoint_1_list_1: "Información de registro de cuenta...",
+    privacy_point_1_subpoint_1_list_2: "Información de perfil...",
+    privacy_point_1_subpoint_1_list_3: "Contenido generado por el usuario...",
+    privacy_point_1_subpoint_1_list_4: "Información de pago...",
+    privacy_point_1_subpoint_1_list_5: "Comunicaciones con nosotros...",
+    privacy_point_1_subpoint_2_title:
+      "Información que Recopilamos Automáticamente:",
+    privacy_point_1_subpoint_2_header:
+      "Información que Recopilamos Automáticamente:",
+    privacy_point_1_subpoint_2_paragraph_1:
+      "[**Aquí debes detallar los tipos de información recopilada automáticamente...**]",
+    privacy_point_1_subpoint_2_list_1: "Información del dispositivo...",
+    privacy_point_1_subpoint_2_list_2: "Datos de uso...",
+    privacy_point_1_subpoint_2_list_3: "Datos de ubicación...",
+    privacy_point_1_subpoint_2_list_4:
+      "Cookies y tecnologías de seguimiento similares...",
+    privacy_point_1_subpoint_3_title: "Información de Fuentes de Terceros:",
+    privacy_point_1_subpoint_3_header: "Información de Fuentes de Terceros:",
+    privacy_point_1_subpoint_3_paragraph_1:
+      "[**Si recibes información de terceros...**]",
+    privacy_point_2_title: "2. Cómo Usamos Tu Información:",
+    privacy_point_2_subpoint_1_title:
+      "Para proporcionar y mantener los Servicios.",
+    privacy_point_2_subpoint_2_title:
+      "Para personalizar tu experiencia dentro de la Aplicación.",
+    privacy_point_2_subpoint_3_title: "Para procesar pagos y transacciones...",
+    privacy_point_2_subpoint_4_title: "Para comunicarnos contigo...",
+    privacy_point_2_subpoint_5_title:
+      "Para monitorear y analizar el uso de los Servicios...",
+    privacy_point_2_subpoint_6_title:
+      "Para hacer cumplir nuestros Términos y Condiciones.",
+    privacy_point_2_subpoint_7_title:
+      "Para detectar, prevenir y abordar problemas técnicos...",
+    privacy_point_2_subpoint_8_title:
+      "[**Incluye cualquier otra forma específica en que uses...**]",
+    privacy_point_3_title: "3. Compartir Tu Información:",
+    privacy_point_3_subpoint_1_title:
+      "**Otros usuarios:** Si participas en áreas públicas...",
+    privacy_point_3_subpoint_2_title:
+      "**Proveedores de servicios:** Empresas de terceros...",
+    privacy_point_3_subpoint_3_title:
+      "**Socios comerciales:** [**Si compartes datos con socios...**]",
+    privacy_point_3_subpoint_4_title:
+      "**Autoridades legales:** Cuando lo exija la ley...",
+    privacy_point_3_subpoint_5_title:
+      "**En relación con una transferencia comercial:** Si participamos...",
+    privacy_point_3_subpoint_6_title:
+      "[**Incluye cualquier otra categoría de destinatarios...**]",
+    privacy_point_4_title:
+      "4. Tus Derechos con Respecto a Tus Datos (según la Ley N° 29733):",
+    privacy_point_4_intro:
+      "Como se indica en nuestros Términos y Condiciones...",
+    privacy_point_4_subpoint_1_title:
+      "**Derecho de Acceso:** A ser informado sobre tus datos personales...",
+    privacy_point_4_subpoint_2_title:
+      "**Derecho de Rectificación:** A actualizar, corregir o modificar...",
+    privacy_point_4_subpoint_3_title:
+      "**Derecho de Cancelación:** A solicitar la eliminación de tus datos...",
+    privacy_point_4_subpoint_4_title:
+      "**Derecho de Oposición:** A oponerte al tratamiento de tus datos...",
+    privacy_point_4_outro: "Para ejercer estos derechos, contáctanos...",
+    privacy_point_5_title: "5. Seguridad de los Datos:",
+    privacy_point_5_paragraph_1:
+      "Implementamos medidas de seguridad razonables...",
+    privacy_point_6_title: "6. Retención de Datos:",
+    privacy_point_6_paragraph_1: "Retendremos tu información personal...",
+    privacy_point_7_title: "7. Transferencias Internacionales de Datos:",
+    privacy_point_7_paragraph_1:
+      "[**Si tus datos se transfieren fuera de Perú...**]",
+    privacy_point_8_title: "8. Enlaces a Otros Sitios Web y Servicios:",
+    privacy_point_8_paragraph_1:
+      "Nuestros Servicios pueden contener enlaces...",
+    privacy_point_9_title: "9. Cambios en esta Política de Privacidad:",
+    privacy_point_9_paragraph_1:
+      "Podemos actualizar esta Política de Privacidad...",
+    privacy_point_10_title: "10. Contáctanos:",
+    privacy_point_10_paragraph_1: "Si tienes alguna pregunta o inquietud...",
+    privacy_point_10_email: "[Tu dirección de correo electrónico]",
+    privacy_point_10_address: "[Tu dirección física en Lima, Perú (opcional)]",
+    terms_back_to_home: "← Volver al inicio",
   },
 };
 

@@ -28,7 +28,10 @@ class App {
     this.router = new Router();
 
     // Configurar rutas
-    this.router.addRoute("home", "home.html").addRoute("terms", "terms.html");
+    this.router
+      .addRoute("home", "home.html")
+      .addRoute("terms", "terms.html")
+      .addRoute("privacy", "privacy-policy.html");
 
     // Configurar la ruta por defecto
     this.router.setDefaultRoute("home");
@@ -39,7 +42,7 @@ class App {
 
   setupNavigation() {
     // Lista de enlaces de navegación
-    const links = ["home", "about", "pricing", "features", "terms"];
+    const links = ["home", "about", "pricing", "features", "terms", "privacy"];
 
     links.forEach((link) => {
       document
