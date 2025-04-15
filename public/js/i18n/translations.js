@@ -283,6 +283,38 @@ const translations = {
     privacy_point_10_email: "thegameapp00@gmail.com",
     privacy_point_10_address: "Chaclacayo, Lima, Peru",
     privacy_back_to_home: "← Back to home",
+
+    // Delete Account
+    account_deletion_title: "Account Deletion - The Game App",
+    account_deletion_intro:
+      "At <strong>The Game App</strong>, developed by <strong>TheGame</strong>, we respect your privacy and give you control over your personal data.",
+    account_deletion_how_to_title: "How to request account deletion",
+    account_deletion_how_to_intro:
+      "If you wish to delete your account and associated data, please follow these steps:",
+    account_deletion_step_1:
+      "Open the <strong>The Game App</strong> application.",
+    account_deletion_step_2:
+      "Go to the <strong>Profile</strong> or <strong>Settings</strong> section.",
+    account_deletion_step_3:
+      'Select the <strong>"Delete Account"</strong> option and confirm.',
+    account_deletion_contact_alt:
+      "Alternatively, you can request account deletion by contacting us at:<br>📧 <strong>thegameapp00@gmail.com</strong>",
+    account_deletion_deleted_title: "What data is deleted?",
+    account_deletion_deleted_description:
+      "When you request account deletion, the following data will be permanently removed:",
+    account_deletion_deleted_1: "Your user profile",
+    account_deletion_deleted_2: "Activity data within the app",
+    account_deletion_deleted_3: "Personal preferences and settings",
+    account_deletion_retained_title: "What data is retained?",
+    account_deletion_retained_description:
+      "Some data may be retained for legal, accounting, or security reasons, such as:",
+    account_deletion_retained_1:
+      "Transaction records (if applicable) for up to 12 months",
+    account_deletion_retained_2:
+      "Anonymous usage data for analytics (non-identifiable)",
+    account_deletion_commitment:
+      "We are committed to protecting your data and handling all requests as promptly as possible.",
+    account_deletion_back_home: "← Back to home",
   },
 
   es: {
@@ -571,6 +603,38 @@ const translations = {
     privacy_point_10_email: "thegameapp00@gmail.com",
     privacy_point_10_address: "Chaclacayo, Lima, Peru",
     privacy_back_to_home: "← Volver al inicio",
+
+    // Delete Account
+    account_deletion_title: "Eliminación de Cuenta - The Game App",
+    account_deletion_intro:
+      "En <strong>The Game App</strong>, desarrollada por <strong>TheGame</strong>, respetamos tu privacidad y te damos control sobre tus datos personales.",
+    account_deletion_how_to_title: "Cómo solicitar la eliminación de cuenta",
+    account_deletion_how_to_intro:
+      "Si deseas eliminar tu cuenta y los datos asociados, sigue estos pasos:",
+    account_deletion_step_1:
+      "Abre la aplicación <strong>The Game App</strong>.",
+    account_deletion_step_2:
+      "Ve a la sección de <strong>Perfil</strong> o <strong>Configuración</strong>.",
+    account_deletion_step_3:
+      'Selecciona la opción <strong>"Eliminar cuenta"</strong> y confírmalo.',
+    account_deletion_contact_alt:
+      "También puedes solicitar la eliminación escribiéndonos a:<br>📧 <strong>thegameapp00@gmail.com</strong>",
+    account_deletion_deleted_title: "¿Qué datos se eliminan?",
+    account_deletion_deleted_description:
+      "Cuando solicitas la eliminación de tu cuenta, se eliminarán permanentemente los siguientes datos:",
+    account_deletion_deleted_1: "Tu perfil de usuario",
+    account_deletion_deleted_2: "Datos de actividad dentro de la app",
+    account_deletion_deleted_3: "Preferencias y configuraciones personales",
+    account_deletion_retained_title: "¿Qué datos se conservan?",
+    account_deletion_retained_description:
+      "Algunos datos pueden conservarse por razones legales, contables o de seguridad, como:",
+    account_deletion_retained_1:
+      "Registros de transacciones (si aplica) por hasta 12 meses",
+    account_deletion_retained_2:
+      "Datos de uso anónimos para análisis (no identificables)",
+    account_deletion_commitment:
+      "Estamos comprometidos con proteger tus datos y atender todas las solicitudes lo antes posible.",
+    account_deletion_back_home: "← Volver al inicio",
   },
 };
 

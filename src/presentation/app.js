@@ -31,7 +31,8 @@ class App {
     this.router
       .addRoute("home", "home.html")
       .addRoute("terms", "terms.html")
-      .addRoute("privacy", "privacy-policy.html");
+      .addRoute("privacy", "privacy-policy.html")
+      .addRoute("delete-account", "delete-account.html");
 
     // Configurar la ruta por defecto
     this.router.setDefaultRoute("home");
