@@ -106,7 +106,7 @@ const translations = {
     terms_title: "Terms and Conditions",
     terms_date: "Last updated: April 9, 2025",
     terms_paragraph_1:
-      'These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you"), and The Game S.A.C., concerning your access to and use of the Services. By accessing the Services, you agree that you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.',
+      'These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you"), and Aura Alpha S.A.C., concerning your access to and use of the Services. By accessing the Services, you agree that you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.',
     terms_paragraph_2:
       'Supplemental terms and conditions or documents that may be posted on the Services from time to time are hereby expressly incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or modifications to these Legal Terms from time to time. We will alert you about any changes by updating the date of "Last updated" of these Legal Terms, and you waive any right to receive specific notice of each change. It is your responsibility to periodically review these Legal Terms to stay informed of the updates. You will be subject to, and will be deemed to have been made aware of and to have accepted, the changes in any revised Legal Terms by your continued use of the Services after the date such revised Legal Terms are posted.',
     terms_paragraph_3:
@@ -116,7 +116,7 @@ const translations = {
 
     terms_point_1_title: "1. AGREEMENT TO THE TERMS",
     terms_point_1_subpoint_1_title:
-      'By accessing and using "The Game App", you agree to these terms and conditions, as well as our Privacy Policy. If you do not agree, do not use the application.',
+      'By accessing and using "Aura Alpha App", you agree to these terms and conditions, as well as our Privacy Policy. If you do not agree, do not use the application.',
     terms_point_1_subpoint_2_title:
       "These terms are governed by the applicable laws of Peru, and to the extent permitted, by international treaties.",
     terms_point_1_subpoint_3_title:
@@ -132,11 +132,11 @@ const translations = {
 
     terms_point_3_title: "3. INTELLECTUAL PROPERTY",
     terms_point_3_subpoint_1_title:
-      "All content of the application (texts, images, code, etc.) is the property of The Game S.A.C. or third-party licensors.",
+      "All content of the application (texts, images, code, etc.) is the property of Aura Alpha S.A.C. or third-party licensors.",
     terms_point_3_subpoint_2_title:
       "The unauthorized reproduction, distribution, or modification of the content is prohibited.",
     terms_point_3_subpoint_3_title:
-      "User contributions (comments, generated content, etc.) grant The Game S.A.C. a license for their use, distribution, and modification.",
+      "User contributions (comments, generated content, etc.) grant Aura Alpha S.A.C. a license for their use, distribution, and modification.",
 
     terms_point_4_title: "4. PRIVACY AND DATA PROTECTION",
     terms_point_4_subpoint_1_title:
@@ -156,7 +156,7 @@ const translations = {
 
     terms_point_6_title: "6. LIMITATION OF LIABILITY",
     terms_point_6_subpoint_1_title:
-      "The Game S.A.C. is not liable for direct, indirect, incidental, or consequential damages arising from the use of the application, except in cases where Peruvian law requires it.",
+      "Aura Alpha S.A.C. is not liable for direct, indirect, incidental, or consequential damages arising from the use of the application, except in cases where Peruvian law requires it.",
     terms_point_6_subpoint_2_title:
       'The application is provided "as is", without warranties of any kind.',
     terms_point_6_subpoint_3_title:
@@ -196,7 +196,7 @@ const translations = {
     // Privacidad
     privacy_title: "Privacy Policy",
     privacy_intro:
-      'This Privacy Policy describes how The Game S.A.C. ("we," "us," or "our") collects, uses, and shares your personal information when you use our mobile application "The Game App" (the "App" or "Services"). By accessing or using the Services, you agree to the terms of this Privacy Policy.',
+      'This Privacy Policy describes how Aura Alpha S.A.C. ("we," "us," or "our") collects, uses, and shares your personal information when you use our mobile application "Aura Alpha App" (the "App" or "Services"). By accessing or using the Services, you agree to the terms of this Privacy Policy.',
     privacy_point_1_title: "1. Information We Collect:",
     privacy_point_1_subpoint_1_title: "Information You Provide Directly:",
     privacy_point_1_subpoint_1_header: "Information You Provide Directly:",
@@ -268,7 +268,7 @@ const translations = {
     privacy_point_7_paragraph_1:
       "We inform our users that, for the provision of our Services and data storage, we utilize the infrastructure of Google Cloud Platform (GCP) of Google LLC, whose servers are primarily located in the United States of America. Therefore, your personal data may be transferred to and processed in this country.",
     privacy_point_7_paragraph_2:
-      'We carry out this international data transfer based on the necessity for the execution of the service agreement that you accept when using "The Game App". The storage of your data on GCP\'s secure and reliable infrastructure is fundamental to the functionality and proper operation of the Application.',
+      'We carry out this international data transfer based on the necessity for the execution of the service agreement that you accept when using "Aura Alpha App". The storage of your data on GCP\'s secure and reliable infrastructure is fundamental to the functionality and proper operation of the Application.',
     privacy_point_7_paragraph_3:
       "Google Cloud Platform implements advanced and globally recognized security measures to protect the information stored in its infrastructure, including encryption, access controls, and regular security audits. You can find more information about GCP's security practices on their website: [**Link to Google Cloud Privacy Policy or its Security Section**]. We strive to ensure that your personal data is treated with the same level of protection that is required by Peruvian law.",
     privacy_point_8_title: "8. Links to Other Websites and Services:",
@@ -285,14 +285,14 @@ const translations = {
     privacy_back_to_home: "← Back to home",
 
     // Delete Account
-    account_deletion_title: "Account Deletion - The Game App",
+    account_deletion_title: "Account Deletion - Aura Alpha App",
     account_deletion_intro:
-      "At <strong>The Game App</strong>, developed by <strong>TheGame</strong>, we respect your privacy and give you control over your personal data.",
+      "At <strong>Aura Alpha App</strong>, developed by <strong>TheGame</strong>, we respect your privacy and give you control over your personal data.",
     account_deletion_how_to_title: "How to request account deletion",
     account_deletion_how_to_intro:
       "If you wish to delete your account and associated data, please follow these steps:",
     account_deletion_step_1:
-      "Open the <strong>The Game App</strong> application.",
+      "Open the <strong>Aura Alpha App</strong> application.",
     account_deletion_step_2:
       "Go to the <strong>Profile</strong> or <strong>Settings</strong> section.",
     account_deletion_step_3:
@@ -421,7 +421,7 @@ const translations = {
     terms_title: "Términos y Condiciones",
     terms_date: "Última actualización: 9 de abril de 2025",
     terms_paragraph_1:
-      'Estos Términos Legales constituyen un acuerdo legalmente vinculante entre tú, ya sea personalmente o en nombre de una entidad ("tú"), y The Game S.A.C., con respecto a tu acceso y uso de los Servicios. Al acceder a los Servicios, aceptas que has leído, entendido y aceptado estar sujeto a todos estos Términos Legales. SI NO ESTÁS DE ACUERDO CON TODOS ESTOS TÉRMINOS LEGALES, ENTONCES ESTÁS EXPRESAMENTE PROHIBIDO DE UTILIZAR LOS SERVICIOS Y DEBES INTERRUMPIR EL USO INMEDIATAMENTE.',
+      'Estos Términos Legales constituyen un acuerdo legalmente vinculante entre tú, ya sea personalmente o en nombre de una entidad ("tú"), y Aura Alpha S.A.C., con respecto a tu acceso y uso de los Servicios. Al acceder a los Servicios, aceptas que has leído, entendido y aceptado estar sujeto a todos estos Términos Legales. SI NO ESTÁS DE ACUERDO CON TODOS ESTOS TÉRMINOS LEGALES, ENTONCES ESTÁS EXPRESAMENTE PROHIBIDO DE UTILIZAR LOS SERVICIOS Y DEBES INTERRUMPIR EL USO INMEDIATAMENTE.',
     terms_paragraph_2:
       'Los términos y condiciones o documentos suplementarios que puedan publicarse en los Servicios de vez en cuando se incorporan expresamente aquí por referencia. Nos reservamos el derecho, a nuestra entera discreción, de realizar cambios o modificaciones a estos Términos Legales de vez en cuando. Te informaremos sobre cualquier cambio actualizando la fecha de "Última actualización" de estos Términos Legales, y renuncias a cualquier derecho a recibir un aviso específico de cada cambio. Es tu responsabilidad revisar periódicamente estos Términos Legales para mantenerte informado de las actualizaciones. Estarás sujeto a, y se considerará que has sido informado y aceptado, los cambios en cualquier Término Legal revisado por tu uso continuo de los Servicios después de la fecha en que se publican dichos Términos Legales revisados.',
     terms_paragraph_3:
@@ -431,7 +431,7 @@ const translations = {
 
     terms_point_1_title: "1. ACEPTACIÓN DE LOS TÉRMINOS",
     terms_point_1_subpoint_1_title:
-      'Al acceder y utilizar "The Game App", aceptas estos términos y condiciones, así como nuestra Política de Privacidad. Si no estás de acuerdo, no utilices la aplicación.',
+      'Al acceder y utilizar "Aura Alpha App", aceptas estos términos y condiciones, así como nuestra Política de Privacidad. Si no estás de acuerdo, no utilices la aplicación.',
     terms_point_1_subpoint_2_title:
       "Estos términos se rigen por las leyes aplicables en Perú, y en la medida permitida, por tratados internacionales.",
     terms_point_1_subpoint_3_title:
@@ -447,11 +447,11 @@ const translations = {
 
     terms_point_3_title: "3. PROPIEDAD INTELECTUAL",
     terms_point_3_subpoint_1_title:
-      "Todo el contenido de la aplicación (textos, imágenes, código, etc.) es propiedad de The Game S.A.C. o de terceros licenciantes.",
+      "Todo el contenido de la aplicación (textos, imágenes, código, etc.) es propiedad de Aura Alpha S.A.C. o de terceros licenciantes.",
     terms_point_3_subpoint_2_title:
       "Se prohíbe la reproducción, distribución o modificación no autorizada del contenido.",
     terms_point_3_subpoint_3_title:
-      "Las contribuciones de los usuarios (comentarios, contenido generado, etc.) otorgan a The Game S.A.C. una licencia para su uso, distribución y modificación.",
+      "Las contribuciones de los usuarios (comentarios, contenido generado, etc.) otorgan a Aura Alpha S.A.C. una licencia para su uso, distribución y modificación.",
 
     terms_point_4_title: "4. PRIVACIDAD Y PROTECCIÓN DE DATOS",
     terms_point_4_subpoint_1_title:
@@ -471,7 +471,7 @@ const translations = {
 
     terms_point_6_title: "6. LIMITACIÓN DE RESPONSABILIDAD",
     terms_point_6_subpoint_1_title:
-      "The Game S.A.C. no se hace responsable por daños directos, indirectos, incidentales o consecuentes derivados del uso de la aplicación, salvo en los casos en que la ley peruana lo exija.",
+      "Aura Alpha S.A.C. no se hace responsable por daños directos, indirectos, incidentales o consecuentes derivados del uso de la aplicación, salvo en los casos en que la ley peruana lo exija.",
     terms_point_6_subpoint_2_title:
       'La aplicación se proporciona "tal cual", sin garantías de ningún tipo.',
     terms_point_6_subpoint_3_title:
@@ -510,7 +510,7 @@ const translations = {
     // Privacidad
     privacy_title: "Política de Privacidad",
     privacy_intro:
-      'Esta Política de Privacidad describe cómo The Game S.A.C. ("nosotros," "nos," o "nuestro/a(s)") recopila, usa y comparte tu información personal cuando utilizas nuestra aplicación móvil "The Game App" (la "Aplicación" o los "Servicios"). Al acceder o utilizar los Servicios, aceptas los términos de esta Política de Privacidad.',
+      'Esta Política de Privacidad describe cómo Aura Alpha S.A.C. ("nosotros," "nos," o "nuestro/a(s)") recopila, usa y comparte tu información personal cuando utilizas nuestra aplicación móvil "Aura Alpha App" (la "Aplicación" o los "Servicios"). Al acceder o utilizar los Servicios, aceptas los términos de esta Política de Privacidad.',
     privacy_point_1_title: "1. Información que Recopilamos:",
     privacy_point_1_subpoint_1_title:
       "Información que Proporcionas Directamente:",
@@ -588,7 +588,7 @@ const translations = {
     privacy_point_7_paragraph_1:
       "Informamos a nuestros usuarios que, para la prestación de nuestros Servicios y el almacenamiento de datos, utilizamos la infraestructura de Google Cloud Platform (GCP) de Google LLC, cuyos servidores se encuentran ubicados principalmente en los Estados Unidos de América. Por lo tanto, sus datos personales podrán ser transferidos y procesados en este país.",
     privacy_point_7_paragraph_2:
-      'Realizamos esta transferencia internacional de datos con base en la necesidad para la ejecución del contrato de servicio que usted acepta al utilizar "The Game App". El almacenamiento de sus datos en la infraestructura segura y confiable de GCP es fundamental para la funcionalidad y la correcta operación de la Aplicación.',
+      'Realizamos esta transferencia internacional de datos con base en la necesidad para la ejecución del contrato de servicio que usted acepta al utilizar "Aura Alpha App". El almacenamiento de sus datos en la infraestructura segura y confiable de GCP es fundamental para la funcionalidad y la correcta operación de la Aplicación.',
     privacy_point_7_paragraph_3:
       "Google Cloud Platform implementa medidas de seguridad avanzadas y reconocidas a nivel mundial para proteger la información almacenada en su infraestructura, incluyendo cifrado, controles de acceso y medidas de seguridad físicas. Puede obtener más información sobre las prácticas de seguridad de GCP en su sitio web: [**https://cloud.google.com/transparency?hl=es**]. Nos esforzamos por asegurar que sus datos personales sean tratados con el mismo nivel de protección que se exige en la legislación peruana.",
     privacy_point_8_title: "8. Enlaces a Otros Sitios Web y Servicios:",
@@ -605,14 +605,14 @@ const translations = {
     privacy_back_to_home: "← Volver al inicio",
 
     // Delete Account
-    account_deletion_title: "Eliminación de Cuenta - The Game App",
+    account_deletion_title: "Eliminación de Cuenta - Aura Alpha App",
     account_deletion_intro:
-      "En <strong>The Game App</strong>, desarrollada por <strong>TheGame</strong>, respetamos tu privacidad y te damos control sobre tus datos personales.",
+      "En <strong>Aura Alpha App</strong>, desarrollada por <strong>TheGame</strong>, respetamos tu privacidad y te damos control sobre tus datos personales.",
     account_deletion_how_to_title: "Cómo solicitar la eliminación de cuenta",
     account_deletion_how_to_intro:
       "Si deseas eliminar tu cuenta y los datos asociados, sigue estos pasos:",
     account_deletion_step_1:
-      "Abre la aplicación <strong>The Game App</strong>.",
+      "Abre la aplicación <strong>Aura Alpha App</strong>.",
     account_deletion_step_2:
       "Ve a la sección de <strong>Perfil</strong> o <strong>Configuración</strong>.",
     account_deletion_step_3:
