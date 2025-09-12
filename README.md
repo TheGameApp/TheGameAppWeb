@@ -1,7 +1,7 @@
-# 🎮 TheGameApp Web Platform
+# 🎮 AuraAlphaApp Web Platform
 
 <div align="center">
-  <img src="public/images/logo/icon.png" alt="TheGameApp Logo" width="120" />
+  <img src="public/images/logo/icon.png" alt="AuraAlphaApp Logo" width="120" />
   <br>
   <h3>Master the Art of Social Connections</h3>
   
@@ -12,9 +12,9 @@
   [![Clean Architecture](https://img.shields.io/badge/Clean%20Architecture-6DB33F?style=flat&logoColor=white)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 </div>
 
-## 📱 About TheGameApp
+## 📱 About AuraAlphaApp
 
-TheGameApp is a revolutionary platform designed to help users master social connections and improve their dating game. Our AI-powered tools provide personalized strategies, real-time assistance, and progress tracking to enhance your social interactions.
+AuraAlphaApp is a revolutionary platform designed to help users master social connections and improve their dating game. Our AI-powered tools provide personalized strategies, real-time assistance, and progress tracking to enhance your social interactions.
 
 ### ✨ Key Features
 
@@ -35,7 +35,7 @@ This project follows **Clean Architecture** principles, ensuring a modular, main
 ### 📂 Project Structure
 
 ```
-TheGameAppWeb/
+AuraAlphaAppWeb/
 ├── domain/               # Business entities and rules
 │   ├── entities/         # Core business objects
 │   ├── usecases/         # Application-specific business rules
@@ -69,8 +69,8 @@ TheGameAppWeb/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/TheGameApp/TheGameAppWeb.git
-   cd TheGameAppWeb
+   git clone https://github.com/AuraAlphaApp/AuraAlphaAppWeb.git
+   cd AuraAlphaAppWeb
    ```
 
 2. **Serve the application**
@@ -95,7 +95,7 @@ TheGameAppWeb/
 
 ## 🎨 Design System
 
-TheGameApp uses a consistent design system with carefully selected colors, typography, and components.
+AuraAlphaApp uses a consistent design system with carefully selected colors, typography, and components.
 
 ### 🎭 Typography
 
@@ -116,7 +116,7 @@ We use the **Clash Display** font family in various weights:
 
 ## 🌐 Internationalization
 
-TheGameApp supports multiple languages:
+AuraAlphaApp supports multiple languages:
 
 - 🇺🇸 English (default)
 - 🇪🇸 Spanish
@@ -133,7 +133,7 @@ The application automatically detects the user's browser language and applies th
 
 ## 👨‍💻 Contributing
 
-We welcome contributions to TheGameApp! Please follow these steps:
+We welcome contributions to AuraAlphaApp! Please follow these steps:
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -148,10 +148,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 <div align="center">
-  <p>© 2025 TheGameApp.Com All Rights Reserved</p>
+  <p>© 2025 AuraAlphaApp.Com All Rights Reserved</p>
   <p>
-    <a href="https://github.com/TheGameApp">GitHub</a> •
-    <a href="https://thegameapp.com">Website</a> •
-    <a href="mailto:help@thegameapp.com">Contact</a>
+    <a href="https://github.com/AuraAlphaApp">GitHub</a> •
+    <a href="https://AuraAlphaApp.com">Website</a> •
+    <a href="mailto:help@AuraAlphaApp.com">Contact</a>
   </p>
 </div>

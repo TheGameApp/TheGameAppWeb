@@ -1,5 +1,5 @@
 /**
- * Internationalization (i18n) module for TheGameApp
+ * Internationalization (i18n) module for AuraAlphaApp
  * Handles language detection and text translation
  */
 import translations from "./translations.js";

@@ -5,8 +5,8 @@
     <path d="M20 10C19 12 17 14 15.5 15.5C14 17 12.5 19 12.5 22C12.5 26.1 15.9 29.5 20 29.5C24.1 29.5 27.5 26.1 27.5 22C27.5 19 26 17 24.5 15.5C23 14 21 12 20 10Z" fill="#FF7777"/>
   </g>
   
-  <!-- Texto "TheGameApp" -->
-  <text x="50" y="35" font-family="ClashDisplay" font-weight="700" font-size="24" fill="#000000">TheGameApp</text>
+  <!-- Texto "AuraAlphaApp" -->
+  <text x="50" y="35" font-family="ClashDisplay" font-weight="700" font-size="24" fill="#000000">AuraAlphaApp</text>
   
   <!-- Símbolo de marca registrada -->
   <text x="220" y="25" font-family="ClashDisplay" font-weight="400" font-size="10" fill="#000000">™</text>

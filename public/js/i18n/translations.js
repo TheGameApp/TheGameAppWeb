@@ -1,5 +1,5 @@
 /**
- * Translations for TheGameApp
+ * Translations for AuraAlphaApp
  * Supports English and Spanish
  */
 const translations = {
@@ -14,13 +14,13 @@ const translations = {
     // Hero Section
     hero_title: "Master <span>The Art</span> of Social Connections",
     hero_description:
-      "Elevate your social skills and dating game with TheGameApp. Learn how to create meaningful connections, respond confidently to interactions, and become a master of attraction.",
+      "Elevate your social skills and dating game with AuraAlphaApp. Learn how to create meaningful connections, respond confidently to interactions, and become a master of attraction.",
     hero_button_primary: "Get Started →",
     hero_button_secondary: "Watch Video",
 
     // Features Section
     features_label: "FEATURES",
-    features_title: "TheGameApp Premium",
+    features_title: "AuraAlphaApp Premium",
     feature1_title: "Smart Response AI",
     feature1_description:
       "Engage confidently in any conversation with our AI-powered chat assistant. Get contextually perfect responses that keep the interaction flowing naturally and maintain interest.",
@@ -33,7 +33,7 @@ const translations = {
 
     // Advantages Section
     advantages_label: "ADVANTAGES",
-    advantages_title: "Why Choose TheGameApp?",
+    advantages_title: "Why Choose AuraAlphaApp?",
     advantage1_title: "Personalized Strategies",
     advantage1_description:
       "Get customized conversation strategies that match your personality and goals. Our AI adapts to your unique style and helps you improve naturally.",
@@ -48,13 +48,13 @@ const translations = {
     testimonials_label: "TESTIMONIALS",
     testimonials_title: "What Our Users Say",
     testimonials_description:
-      "Discover how TheGameApp has transformed the social lives of thousands of users worldwide. Real stories from real people who have mastered the art of connection.",
+      "Discover how AuraAlphaApp has transformed the social lives of thousands of users worldwide. Real stories from real people who have mastered the art of connection.",
 
     // Testimonial 1
     testimonial1_name: "Alex Johnson",
     testimonial1_role: "Marketing Executive",
     testimonial1_text:
-      '"TheGameApp completely transformed my social interactions. The AI-powered responses helped me navigate conversations with confidence. I\'ve made more meaningful connections in the last month than in the entire year before!"',
+      '"AuraAlphaApp completely transformed my social interactions. The AI-powered responses helped me navigate conversations with confidence. I\'ve made more meaningful connections in the last month than in the entire year before!"',
     testimonial1_date: "March 15, 2023",
 
     // Testimonial 2
@@ -75,17 +75,17 @@ const translations = {
     testimonial4_name: "Emma Wilson",
     testimonial4_role: "Entrepreneur",
     testimonial4_text:
-      '"I was skeptical at first, but TheGameApp has truly changed how I approach networking events. The conversation starters and response suggestions have helped me build valuable business connections that I wouldn\'t have made otherwise."',
+      '"I was skeptical at first, but AuraAlphaApp has truly changed how I approach networking events. The conversation starters and response suggestions have helped me build valuable business connections that I wouldn\'t have made otherwise."',
     testimonial4_date: "May 12, 2023",
 
     // CTA Section
     cta_title: "Ready To Get Started?",
     cta_description:
-      "Download TheGameApp today and transform your social interactions. Our AI-powered tools will help you create meaningful connections and master the art of attraction.",
+      "Download AuraAlphaApp today and transform your social interactions. Our AI-powered tools will help you create meaningful connections and master the art of attraction.",
     cta_button: "Download on Play Store",
 
     // Footer
-    footer_contact_email: "Help@thegameapp.com",
+    footer_contact_email: "Help@AuraAlphaApp.com",
     footer_contact_phone: "+1234 456 678 89",
     footer_links_title: "Links",
     footer_legal_title: "Legal",
@@ -100,7 +100,7 @@ const translations = {
     footer_tour: "Take Tour",
     footer_chat: "Live Chat",
     footer_reviews: "Reviews",
-    footer_copyright: "Copyright 2025 TheGameApp.Com All Rights Reserved",
+    footer_copyright: "Copyright 2025 AuraAlphaApp.Com All Rights Reserved",
 
     // Terms
     terms_title: "Terms and Conditions",
@@ -280,7 +280,7 @@ const translations = {
     privacy_point_10_title: "10. Contact Us:",
     privacy_point_10_paragraph_1:
       "If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:",
-    privacy_point_10_email: "thegameapp00@gmail.com",
+    privacy_point_10_email: "AuraAlphaApp00@gmail.com",
     privacy_point_10_address: "Chaclacayo, Lima, Peru",
     privacy_back_to_home: "← Back to home",
 
@@ -298,7 +298,7 @@ const translations = {
     account_deletion_step_3:
       'Select the <strong>"Delete Account"</strong> option and confirm.',
     account_deletion_contact_alt:
-      "Alternatively, you can request account deletion by contacting us at:<br>📧 <strong>thegameapp00@gmail.com</strong>",
+      "Alternatively, you can request account deletion by contacting us at:<br>📧 <strong>AuraAlphaApp00@gmail.com</strong>",
     account_deletion_deleted_title: "What data is deleted?",
     account_deletion_deleted_description:
       "When you request account deletion, the following data will be permanently removed:",
@@ -328,13 +328,13 @@ const translations = {
     // Sección Hero
     hero_title: "Domina <span>El Juego</span> de las Conexiones Sociales",
     hero_description:
-      "Mejora tus habilidades sociales y de citas con TheGameApp. Aprende a crear conexiones significativas, responder con confianza a las interacciones y convertirte en un maestro de la atracción.",
+      "Mejora tus habilidades sociales y de citas con AuraAlphaApp. Aprende a crear conexiones significativas, responder con confianza a las interacciones y convertirte en un maestro de la atracción.",
     hero_button_primary: "Comenzar →",
     hero_button_secondary: "Ver Video",
 
     // Sección de Características
     features_label: "CARACTERÍSTICAS",
-    features_title: "TheGameApp Premium",
+    features_title: "AuraAlphaApp Premium",
     feature1_title: "IA de Respuestas Inteligentes",
     feature1_description:
       "Participa con confianza en cualquier conversación con nuestro asistente de chat impulsado por IA. Obtén respuestas contextualmente perfectas que mantienen la interacción fluyendo naturalmente y mantienen el interés.",
@@ -347,7 +347,7 @@ const translations = {
 
     // Sección de Ventajas
     advantages_label: "VENTAJAS",
-    advantages_title: "¿Por qué elegir TheGameApp?",
+    advantages_title: "¿Por qué elegir AuraAlphaApp?",
     advantage1_title: "Estrategias Personalizadas",
     advantage1_description:
       "Obtén estrategias de conversación personalizadas que se adapten a tu personalidad y objetivos. Nuestra IA se adapta a tu estilo único y te ayuda a mejorar naturalmente.",
@@ -362,13 +362,13 @@ const translations = {
     testimonials_label: "TESTIMONIOS",
     testimonials_title: "Lo que dicen nuestros usuarios",
     testimonials_description:
-      "Descubre cómo TheGameApp ha transformado la vida social de miles de usuarios en todo el mundo. Historias reales de personas reales que han dominado el juego de la conexión.",
+      "Descubre cómo AuraAlphaApp ha transformado la vida social de miles de usuarios en todo el mundo. Historias reales de personas reales que han dominado el juego de la conexión.",
 
     // Testimonio 1
     testimonial1_name: "Alex Johnson",
     testimonial1_role: "Ejecutivo de Marketing",
     testimonial1_text:
-      '"TheGameApp transformó completamente mis interacciones sociales. Las respuestas impulsadas por IA me ayudaron a navegar conversaciones con confianza. ¡He creado más conexiones significativas en el último mes que en todo el año anterior!"',
+      '"AuraAlphaApp transformó completamente mis interacciones sociales. Las respuestas impulsadas por IA me ayudaron a navegar conversaciones con confianza. ¡He creado más conexiones significativas en el último mes que en todo el año anterior!"',
     testimonial1_date: "15 de marzo, 2023",
 
     // Testimonio 2
@@ -389,17 +389,17 @@ const translations = {
     testimonial4_name: "Emma Wilson",
     testimonial4_role: "Emprendedora",
     testimonial4_text:
-      '"Al principio era escéptica, pero TheGameApp ha cambiado realmente la forma en que abordo los eventos de networking. Los iniciadores de conversación y las sugerencias de respuesta me han ayudado a construir conexiones comerciales valiosas que de otro modo no habría logrado."',
+      '"Al principio era escéptica, pero AuraAlphaApp ha cambiado realmente la forma en que abordo los eventos de networking. Los iniciadores de conversación y las sugerencias de respuesta me han ayudado a construir conexiones comerciales valiosas que de otro modo no habría logrado."',
     testimonial4_date: "12 de mayo, 2023",
 
     // Sección CTA
     cta_title: "¿Listo para empezar?",
     cta_description:
-      "Descarga TheGameApp hoy y transforma tus interacciones sociales. Nuestras herramientas impulsadas por IA te ayudarán a crear conexiones significativas y dominar el juego de la atracción.",
+      "Descarga AuraAlphaApp hoy y transforma tus interacciones sociales. Nuestras herramientas impulsadas por IA te ayudarán a crear conexiones significativas y dominar el juego de la atracción.",
     cta_button: "Descargar en Play Store",
 
     // Pie de página
-    footer_contact_email: "Ayuda@thegameapp.com",
+    footer_contact_email: "Ayuda@AuraAlphaApp.com",
     footer_contact_phone: "+1234 456 678 89",
     footer_links_title: "Enlaces",
     footer_legal_title: "Legal",
@@ -415,7 +415,7 @@ const translations = {
     footer_chat: "Chat en Vivo",
     footer_reviews: "Reseñas",
     footer_copyright:
-      "Copyright 2025 TheGameApp.Com Todos los Derechos Reservados",
+      "Copyright 2025 AuraAlphaApp.Com Todos los Derechos Reservados",
 
     // Terms
     terms_title: "Términos y Condiciones",
@@ -600,7 +600,7 @@ const translations = {
     privacy_point_10_title: "10. Contáctanos:",
     privacy_point_10_paragraph_1:
       "Si tienes alguna pregunta o inquietud sobre esta Política de Privacidad o nuestras prácticas de datos, contáctanos a:",
-    privacy_point_10_email: "thegameapp00@gmail.com",
+    privacy_point_10_email: "AuraAlphaApp00@gmail.com",
     privacy_point_10_address: "Chaclacayo, Lima, Peru",
     privacy_back_to_home: "← Volver al inicio",
 
@@ -618,7 +618,7 @@ const translations = {
     account_deletion_step_3:
       'Selecciona la opción <strong>"Eliminar cuenta"</strong> y confírmalo.',
     account_deletion_contact_alt:
-      "También puedes solicitar la eliminación escribiéndonos a:<br>📧 <strong>thegameapp00@gmail.com</strong>",
+      "También puedes solicitar la eliminación escribiéndonos a:<br>📧 <strong>AuraAlphaApp00@gmail.com</strong>",
     account_deletion_deleted_title: "¿Qué datos se eliminan?",
     account_deletion_deleted_description:
       "Cuando solicitas la eliminación de tu cuenta, se eliminarán permanentemente los siguientes datos:",
