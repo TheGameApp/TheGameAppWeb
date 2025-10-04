@@ -280,7 +280,7 @@ const translations = {
     privacy_point_10_title: "10. Contact Us:",
     privacy_point_10_paragraph_1:
       "If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:",
-    privacy_point_10_email: "AuraAlphaApp00@gmail.com",
+    privacy_point_10_email: "thegameapp00@gmail.com",
     privacy_point_10_address: "Chaclacayo, Lima, Peru",
     privacy_back_to_home: "← Back to home",
 
@@ -298,7 +298,7 @@ const translations = {
     account_deletion_step_3:
       'Select the <strong>"Delete Account"</strong> option and confirm.',
     account_deletion_contact_alt:
-      "Alternatively, you can request account deletion by contacting us at:<br>📧 <strong>AuraAlphaApp00@gmail.com</strong>",
+      "Alternatively, you can request account deletion by contacting us at:<br>📧 <strong>thegameapp00@gmail.com</strong>",
     account_deletion_deleted_title: "What data is deleted?",
     account_deletion_deleted_description:
       "When you request account deletion, the following data will be permanently removed:",
@@ -600,7 +600,7 @@ const translations = {
     privacy_point_10_title: "10. Contáctanos:",
     privacy_point_10_paragraph_1:
       "Si tienes alguna pregunta o inquietud sobre esta Política de Privacidad o nuestras prácticas de datos, contáctanos a:",
-    privacy_point_10_email: "AuraAlphaApp00@gmail.com",
+    privacy_point_10_email: "thegameapp00@gmail.com",
     privacy_point_10_address: "Chaclacayo, Lima, Peru",
     privacy_back_to_home: "← Volver al inicio",
 
@@ -618,7 +618,7 @@ const translations = {
     account_deletion_step_3:
       'Selecciona la opción <strong>"Eliminar cuenta"</strong> y confírmalo.',
     account_deletion_contact_alt:
-      "También puedes solicitar la eliminación escribiéndonos a:<br>📧 <strong>AuraAlphaApp00@gmail.com</strong>",
+      "También puedes solicitar la eliminación escribiéndonos a:<br>📧 <strong>thegameapp00@gmail.com</strong>",
     account_deletion_deleted_title: "¿Qué datos se eliminan?",
     account_deletion_deleted_description:
       "Cuando solicitas la eliminación de tu cuenta, se eliminarán permanentemente los siguientes datos:",
