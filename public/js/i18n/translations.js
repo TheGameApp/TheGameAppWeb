@@ -85,8 +85,8 @@ const translations = {
     cta_button: "Download on Play Store",
 
     // Footer
-    footer_contact_email: "Help@AuraAlphaApp.com",
-    footer_contact_phone: "+1234 456 678 89",
+    footer_contact_email: "thegameapp00@gmail.com",
+    footer_contact_phone: "+51 986 666 606",
     footer_links_title: "Links",
     footer_legal_title: "Legal",
     footer_product_title: "Product",

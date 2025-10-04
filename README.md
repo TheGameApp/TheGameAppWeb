@@ -152,6 +152,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
   <p>
     <a href="https://github.com/AuraAlphaApp">GitHub</a> •
     <a href="https://AuraAlphaApp.com">Website</a> •
-    <a href="mailto:help@AuraAlphaApp.com">Contact</a>
+    <a href="mailto:thegameapp00@gmail.com">Contact</a>
   </p>
 </div>
