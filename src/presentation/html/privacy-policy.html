@@ -1,181 +1,783 @@
-<body>
-    <main style="margin: 2rem;">
-        <br>
-        <br>
-        <br>
-        <h1 data-i18n="privacy_title">Privacy Policy</h1>
-        <br>
-        <p data-i18n="privacy_intro">
-            This Privacy Policy describes how Aura Alpha S.A.C. ("we," "us," or "our") collects, uses, and shares your
-            personal information when you use our mobile application "Aura Alpha App" (the "App" or "Services"). By
-            accessing or using the Services, you agree to the terms of this Privacy Policy.
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Política de Privacidad - Aura Alpha App</title>
+    <style>
+      @font-face {
+        font-family: "Clash Display";
+        src: url("/public/fonts/ClashDisplay-Regular.otf") format("opentype");
+        font-weight: 400;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "Clash Display";
+        src: url("/public/fonts/ClashDisplay-Medium.otf") format("opentype");
+        font-weight: 500;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "Clash Display";
+        src: url("/public/fonts/ClashDisplay-Semibold.otf") format("opentype");
+        font-weight: 600;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "Clash Display";
+        src: url("/public/fonts/ClashDisplay-Bold.otf") format("opentype");
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      body {
+        font-family: "Clash Display", -apple-system, BlinkMacSystemFont,
+          "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 2rem;
+        background: #f5f5f5;
+      }
+      .container {
+        background: white;
+        padding: 3rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #000;
+        border-bottom: 3px solid #000;
+        padding-bottom: 1rem;
+        margin-bottom: 2rem;
+      }
+      h2 {
+        color: #000;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+      }
+      h3 {
+        color: #000;
+        margin-top: 1.5rem;
+      }
+      .metadata {
+        background: #f3f4f6;
+        padding: 1rem;
+        border-radius: 4px;
+        margin-bottom: 2rem;
+      }
+      .warning {
+        background: #fef3c7;
+        border-left: 4px solid #f59e0b;
+        padding: 1rem;
+        margin: 1rem 0;
+      }
+      .info-box {
+        background: #dbeafe;
+        border-left: 4px solid #3b82f6;
+        padding: 1rem;
+        margin: 1rem 0;
+      }
+      ul {
+        margin-left: 1.5rem;
+      }
+      li {
+        margin-bottom: 0.5rem;
+      }
+      .back-link {
+        display: inline-block;
+        margin-top: 2rem;
+        padding: 0.5rem 1rem;
+        background: #000;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background 0.3s;
+      }
+      .back-link:hover {
+        background: #333;
+      }
+      .contact-box {
+        background: #ede9fe;
+        padding: 1.5rem;
+        border-radius: 4px;
+        margin: 1rem 0;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1rem 0;
+      }
+      th,
+      td {
+        border: 1px solid #e5e7eb;
+        padding: 0.75rem;
+        text-align: left;
+      }
+      th {
+        background: #f3f4f6;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>POLÍTICA DE PRIVACIDAD - AURA ALPHA APP</h1>
+
+      <div class="metadata">
+        <p>
+          <strong>Fecha de última actualización:</strong> 6 de Octubre de 2025
         </p>
-        <br>
-        <section>
-            <h2 data-i18n="privacy_point_1_title">1. Information We Collect:</h2>
-            <ul>
-                <li data-i18n="privacy_point_1_subpoint_1_title">
-                    <h3 data-i18n="privacy_point_1_subpoint_1_header">Information You Provide Directly:</h3>
-                    <p data-i18n="privacy_point_1_subpoint_1_paragraph_1">
-                        As stated in our Terms and Conditions, users must be at least 18 years old to use our Services.
-                        We do not knowingly collect personal information from individuals under the age of 18.
-                    </p>
-                    <ul>
-                        <li data-i18n="privacy_point_1_subpoint_1_list_1">Account registration information (username,
-                            email address, password, etc.).</li>
-                        <li data-i18n="privacy_point_1_subpoint_1_list_2">Profile information (age, gender, interests,
-                            etc., if applicable).</li>
-                        <li data-i18n="privacy_point_1_subpoint_1_list_3">User-generated content (comments, posts,
-                            in-app messages, etc., as mentioned in the "User Contributions" section of the Terms).</li>
-                        <li data-i18n="privacy_point_1_subpoint_1_list_4">Payment information (credit card details,
-                            billing address, etc., if applicable for in-app purchases as per the "Payments and
-                            Transactions" section of the Terms).</li>
-                        <li data-i18n="privacy_point_1_subpoint_1_list_5">Communications with us (support requests,
-                            feedback, etc.).</li>
-                    </ul>
-                </li>
-                <li data-i18n="privacy_point_1_subpoint_2_title">
-                    <h3 data-i18n="privacy_point_1_subpoint_2_header">Information We Collect Automatically:</h3>
-                    <ul>
-                        <li data-i18n="privacy_point_1_subpoint_2_list_1">Device information (device type, operating
-                            system, unique device identifiers, IP address).</li>
-                        <li data-i18n="privacy_point_1_subpoint_2_list_2">Usage data (how you use the App, features you
-                            interact with, time spent, etc.).</li>
-                        <li data-i18n="privacy_point_1_subpoint_2_list_3">Location data (if your App uses location
-                            services, explain how this data is collected and used).</li>
-                        <li data-i18n="privacy_point_1_subpoint_2_list_4">Cookies and similar tracking technologies (if
-                            applicable within the App environment, though less common in native mobile apps than
-                            websites).</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h2 data-i18n="privacy_point_2_title">2. How We Use Your Information:</h2>
-            <ul>
-                <li data-i18n="privacy_point_2_subpoint_1_title">To provide and maintain the Services.</li>
-                <li data-i18n="privacy_point_2_subpoint_2_title">To personalize your experience within the App.</li>
-                <li data-i18n="privacy_point_2_subpoint_3_title">To process payments and transactions (as outlined in
-                    the "Payments and Transactions" section of the Terms).</li>
-                <li data-i18n="privacy_point_2_subpoint_4_title">To communicate with you, including responding to your
-                    inquiries and providing updates.</li>
-                <li data-i18n="privacy_point_2_subpoint_5_title">To monitor and analyze usage of the Services to
-                    improve and develop new features.</li>
-                <li data-i18n="privacy_point_2_subpoint_6_title">To enforce our Terms and Conditions.</li>
-                <li data-i18n="privacy_point_2_subpoint_7_title">To detect, prevent, and address technical issues and
-                    security incidents.</li>
-            </ul>
-        </section>
-        <section>
-            <h2 data-i18n="privacy_point_3_title">3. Sharing Your Information:</h2>
-            <ul>
-                <li data-i18n="privacy_point_3_subpoint_1_title">Other users: If you participate in public areas of
-                    the Services (e.g., user contributions as per the Terms).</li>
-                <li data-i18n="privacy_point_3_subpoint_2_title">Service providers: Third-party companies that
-                    provide
-                    services on our behalf (e.g., payment processing, analytics, hosting). These providers are
-                    contractually obligated to protect your information.</li>
-                <li data-i18n="privacy_point_3_subpoint_4_title">Legal authorities: When required by law or legal
-                    process, or to protect our rights and the rights of others (as referenced in the "Applicable Law and
-                    Jurisdiction" section of the Terms).</li>
-                <li data-i18n="privacy_point_3_subpoint_5_title">In connection with a business transfer: If we are
-                    involved in a merger, acquisition, or sale of all or a portion of our assets.</li>
-            </ul>
-        </section>
-        <section>
-            <h2 data-i18n="privacy_point_4_title">4. Your Rights Regarding Your Data (as per Law N° 29733):</h2>
-            <p data-i18n="privacy_point_4_intro">
-                As stated in our Terms and Conditions, in accordance with the Peruvian Personal Data Protection Law (Law
-                N° 29733), you have the following rights regarding your personal data:
-            </p>
-            <ul>
-                <li data-i18n="privacy_point_4_subpoint_1_title">Right of Access: To be informed
-                    about your personal data we hold, how it was obtained, the purposes of its processing, and the
-                    recipients or categories of recipients.</li>
-                <li data-i18n="privacy_point_4_subpoint_2_title">Right of Rectification:
-                    To update, correct, or modify your inaccurate or incomplete personal data.</li>
-                <li data-i18n="privacy_point_4_subpoint_3_title">Right of Cancellation: To
-                    request the deletion of your personal data when it is no longer necessary for the purposes for which
-                    it was collected, when you have withdrawn your consent (if applicable), or when its processing does
-                    not comply with the law.</li>
-                <li data-i18n="privacy_point_4_subpoint_4_title">Right of Opposition: To
-                    object to the processing of your personal data for legitimate and compelling reasons.</li>
-            </ul>
-            <p data-i18n="privacy_point_4_outro">
-                To exercise these rights, please contact us as described in the "Contact Us" section of this Privacy
-                Policy. We will respond to your request in accordance with the timelines established by Peruvian law.
-            </p>
-        </section>
-        <section>
-            <h2 data-i18n="privacy_point_5_title">5. Data Security:</h2>
-            <p data-i18n="privacy_point_5_paragraph_1">
-                We implement reasonable security measures to protect your personal information from unauthorized access,
-                use, disclosure, alteration, or destruction. However, no method of transmission over the internet or
-                electronic storage is completely secure, and we cannot guarantee absolute security.
-            </p>
-        </section>
-        <section>
-            <h2 data-i18n="privacy_point_6_title">6. Data Retention:</h2>
-            <p data-i18n="privacy_point_6_paragraph_1">
-                We will retain your personal information for as long as necessary to provide the Services, fulfill the
-                purposes outlined in this Privacy Policy, or as required by applicable Peruvian law.
-            </p>
-        </section>
-        <section>
-            <h2 data-i18n="privacy_point_7_title">7. International Data Transfers:</h2>
-            <p data-i18n="privacy_point_7_paragraph_1">
-                We inform our users that, for the provision of our Services and data storage, we utilize the
-                infrastructure of Google Cloud Platform (GCP) of Google LLC, whose servers are primarily located in the
-                United States of America. Therefore, your personal data may be transferred to and processed in this
-                country.
-            </p>
-            <p data-i18n="privacy_point_7_paragraph_2">
-                We carry out this international data transfer based on the necessity for the execution of the service
-                agreement that you accept when using "Aura Alpha App". The storage of your data on GCP's secure and
-                reliable infrastructure is fundamental to the functionality and proper operation of the Application.
-            </p>
-            <p data-i18n="privacy_point_7_paragraph_3">
-                Google Cloud Platform implements advanced and globally recognized security measures to protect the
-                information stored in its infrastructure, including encryption, access controls, and regular security
-                audits. You can find more information about GCP's security practices on their website:
-                <a href="https://cloud.google.com/transparency?hl=es" target="_blank"
-                    rel="noopener noreferrer">https://cloud.google.com/transparency?hl=es</a>.
-                We strive to ensure that your personal data is treated with the same level of protection that is
-                required by Peruvian law.
-            </p>
-        </section>
-        <section>
-            <h2 data-i18n="privacy_point_8_title">8. Links to Other Websites and Services:</h2>
-            <p data-i18n="privacy_point_8_paragraph_1">
-                Our Services may contain links to third-party websites or services. We are not responsible for the
-                privacy practices of these other sites. We encourage you to review their privacy policies. (This relates
-                to the "Third-Party Websites and Content" section of your Terms).
-            </p>
-        </section>
-        <section>
-            <h2 data-i18n="privacy_point_9_title">9. Changes to this Privacy Policy:</h2>
-            <p data-i18n="privacy_point_9_paragraph_1">
-                We may update this Privacy Policy from time to time. We will notify you of any significant changes by
-                posting the new Privacy Policy within the App or by other means. Your continued use of the Services
-                after
-                the effective date of the revised Privacy Policy constitutes your acceptance of the changes (as
-                mentioned
-                in the introductory paragraphs of your Terms).
-            </p>
-        </section>
-        <section>
-            <h2 data-i18n="privacy_point_10_title">10. Contact Us:</h2>
-            <p data-i18n="privacy_point_10_paragraph_1">
-                If you have any questions or concerns about this Privacy Policy or our data practices, please contact us
-                at:
-            </p>
-            <p data-i18n="privacy_point_10_email"><a href="mailto:thegameapp00@gmail.com">thegameapp00@gmail.com</a>
-            </p>
-            <p data-i18n="privacy_point_10_address">Chaclacayo, Lima, Perú</p>
-        </section>
-        <br>
-        <a href="#home" data-i18n="privacy_back_to_home">
-            ← Back to home
-        </a>
-    </main>
-</body>
+        <p><strong>Versión:</strong> 1.0</p>
+        <p><strong>Fecha de vigencia:</strong> 6 de Octubre de 2025</p>
+      </div>
+
+      <h2>INFORMACIÓN GENERAL</h2>
+      <p>
+        <strong>Aura Alpha App</strong> ("nosotros", "nuestro", "la Aplicación"
+        o "el Servicio") se compromete a proteger la privacidad de nuestros
+        usuarios. Esta Política de Privacidad describe cómo recopilamos,
+        utilizamos, almacenamos y compartimos la información personal que
+        obtenemos a través de nuestra aplicación móvil.
+      </p>
+      <p>
+        Al utilizar Aura Alpha App, usted acepta las prácticas descritas en esta
+        Política de Privacidad.
+      </p>
+
+      <h2>INFORMACIÓN QUE RECOPILAMOS</h2>
+
+      <h3>1. Información de Cuenta y Perfil</h3>
+      <ul>
+        <li>
+          <strong>Nombre completo</strong> (proporcionado durante el registro)
+        </li>
+        <li>
+          <strong>Dirección de correo electrónico</strong> (para autenticación y
+          comunicación)
+        </li>
+        <li>
+          <strong>Contraseña</strong> (encriptada y almacenada de forma segura)
+        </li>
+        <li>
+          <strong>Información de perfil</strong> (edad, género, preferencias
+          personales)
+        </li>
+        <li>
+          <strong>Datos de autenticación social</strong> (Google, Apple ID -
+          solo información básica)
+        </li>
+      </ul>
+
+      <h3>2. Contenido Generado por el Usuario</h3>
+      <ul>
+        <li>
+          <strong>Mensajes de chat</strong> con nuestro sistema de IA (Gemini)
+        </li>
+        <li><strong>Imágenes</strong> subidas para análisis de texto</li>
+        <li><strong>Respuestas a tests psicológicos</strong> ("shit test")</li>
+        <li>
+          <strong>Contenido de onboarding</strong> (respuestas a preguntas
+          personales)
+        </li>
+        <li>
+          <strong>Generación de "baits"</strong> (contenido creado por el
+          usuario)
+        </li>
+      </ul>
+
+      <h3>3. Información de Uso y Análisis</h3>
+      <ul>
+        <li><strong>Datos de interacción</strong> con la aplicación</li>
+        <li><strong>Tiempo de uso</strong> y frecuencia de acceso</li>
+        <li>
+          <strong>Funciones utilizadas</strong> (chat, tests, galería de baits)
+        </li>
+        <li><strong>Datos de navegación</strong> dentro de la aplicación</li>
+        <li>
+          <strong>Información de errores</strong> y rendimiento (a través de
+          Sentry)
+        </li>
+        <li>
+          <strong>Session Replay:</strong> Grabaciones de sesión donde ocurren
+          errores (con Sentry)
+        </li>
+        <li>
+          <strong>Datos de atribución:</strong> Fuente de instalación de la app
+          (vía Branch.io)
+        </li>
+        <li>
+          <strong>Códigos de referral:</strong> Tracking de invitaciones entre
+          usuarios
+        </li>
+        <li>
+          <strong>Deep links:</strong> Enlaces compartidos y navegación desde
+          URLs externas
+        </li>
+        <li>
+          <strong>Campañas de marketing:</strong> Efectividad de publicidad y
+          promociones
+        </li>
+      </ul>
+
+      <h3>4. Información del Dispositivo</h3>
+      <ul>
+        <li><strong>Modelo y marca</strong> del dispositivo</li>
+        <li><strong>Sistema operativo</strong> y versión</li>
+        <li><strong>Identificadores únicos</strong> del dispositivo</li>
+        <li><strong>Dirección IP</strong> y datos de red</li>
+        <li><strong>Configuración regional</strong> y idioma</li>
+      </ul>
+
+      <h3>5. Información de Compras</h3>
+      <ul>
+        <li>
+          <strong>Historial de compras</strong> in-app (a través de RevenueCat)
+        </li>
+        <li><strong>Información de suscripciones</strong> y pagos</li>
+        <li><strong>Datos de facturación</strong> (procesados por terceros)</li>
+      </ul>
+
+      <h2>CÓMO UTILIZAMOS SU INFORMACIÓN</h2>
+
+      <h3>Propósitos Principales:</h3>
+      <ol>
+        <li>
+          <strong>Proporcionar el servicio</strong> - Operar y mantener la
+          funcionalidad de la aplicación
+        </li>
+        <li>
+          <strong>Personalización</strong> - Adaptar la experiencia según sus
+          preferencias y comportamiento
+        </li>
+        <li>
+          <strong>Mejora del servicio</strong> - Analizar el uso para mejorar
+          características y rendimiento
+        </li>
+        <li>
+          <strong>Comunicación</strong> - Enviar actualizaciones, notificaciones
+          y soporte técnico
+        </li>
+        <li>
+          <strong>Seguridad</strong> - Proteger contra fraudes y uso no
+          autorizado
+        </li>
+        <li>
+          <strong>Cumplimiento legal</strong> - Cumplir con obligaciones legales
+          y regulatorias
+        </li>
+      </ol>
+
+      <h3>Procesamiento de IA:</h3>
+      <ul>
+        <li>
+          <strong>Análisis de texto</strong> en imágenes para mejorar la
+          experiencia de chat
+        </li>
+        <li>
+          <strong>Generación de contenido</strong> personalizado basado en sus
+          interacciones
+        </li>
+        <li>
+          <strong>Análisis de patrones</strong> para recomendaciones mejoradas
+        </li>
+      </ul>
+
+      <h2>COMPARTICIÓN DE INFORMACIÓN</h2>
+
+      <div class="info-box">
+        <p><strong>No vendemos su información personal.</strong></p>
+      </div>
+
+      <p>
+        Compartimos información únicamente en las siguientes circunstancias:
+      </p>
+
+      <h3>1. Proveedores de Servicios Terceros</h3>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Servicio</th>
+            <th>Proveedor</th>
+            <th>Propósito</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Backend y Base de Datos</strong></td>
+            <td>Supabase (PostgreSQL Cloud)</td>
+            <td>
+              Almacena perfiles, contenido generado, tests y autenticación
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Inteligencia Artificial</strong></td>
+            <td>Google Gemini AI (Google Cloud)</td>
+            <td>Procesamiento de lenguaje natural y análisis de imágenes</td>
+          </tr>
+          <tr>
+            <td><strong>Almacenamiento de Imágenes</strong></td>
+            <td>Cloudinary</td>
+            <td>Gestión de activos digitales y almacenamiento de imágenes</td>
+          </tr>
+          <tr>
+            <td><strong>Marketing y Atribución</strong></td>
+            <td>Branch.io</td>
+            <td>
+              Deep linking, atribución de instalación y seguimiento de referrals
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Monitoreo y Analytics</strong></td>
+            <td>Sentry</td>
+            <td>Monitoreo de errores, análisis de rendimiento y diagnóstico</td>
+          </tr>
+          <tr>
+            <td><strong>Pagos y Suscripciones</strong></td>
+            <td>RevenueCat</td>
+            <td>Gestión de suscripciones y compras in-app</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h4>Detalles de Servicios Terceros:</h4>
+
+      <p><strong>Supabase (Backend Principal):</strong></p>
+      <ul>
+        <li>
+          Almacena perfiles de usuario, contenido generado, tests y respuestas
+        </li>
+        <li>
+          Gestiona autenticación mediante email/password, Google y Apple ID
+        </li>
+        <li>Procesa todas las operaciones de base de datos de la aplicación</li>
+        <li>
+          Política de privacidad:
+          <a href="https://supabase.com/privacy" target="_blank"
+            >https://supabase.com/privacy</a
+          >
+        </li>
+      </ul>
+
+      <p><strong>Google Gemini AI:</strong></p>
+      <ul>
+        <li>
+          Gemini Flash 1.5 y 2.0 para generación de contenido personalizado
+        </li>
+        <li>Análisis de texto extraído de imágenes</li>
+        <li>Generación de respuestas conversacionales</li>
+        <li>
+          Política de privacidad:
+          <a href="https://policies.google.com/privacy" target="_blank"
+            >https://policies.google.com/privacy</a
+          >
+        </li>
+      </ul>
+
+      <p><strong>Cloudinary:</strong></p>
+      <ul>
+        <li>Almacena todas las imágenes subidas por usuarios</li>
+        <li>Genera miniaturas y versiones optimizadas automáticamente</li>
+        <li>Proporciona URLs de acceso público a contenido compartido</li>
+        <li>Retención: Hasta eliminación manual o cierre de cuenta</li>
+        <li>
+          Política de privacidad:
+          <a href="https://cloudinary.com/privacy" target="_blank"
+            >https://cloudinary.com/privacy</a
+          >
+        </li>
+      </ul>
+
+      <p><strong>Branch.io:</strong></p>
+      <ul>
+        <li>Tracking de fuente de instalación de la aplicación</li>
+        <li>Gestión de códigos de referral entre usuarios</li>
+        <li>Medición de efectividad de campañas de marketing</li>
+        <li>Datos de navegación a través de enlaces compartidos</li>
+        <li>
+          Política de privacidad:
+          <a href="https://branch.io/policies/" target="_blank"
+            >https://branch.io/policies/</a
+          >
+        </li>
+      </ul>
+
+      <p><strong>Sentry:</strong></p>
+      <ul>
+        <li>Captura automática de errores y excepciones</li>
+        <li>
+          Session Replay: Grabación de 100% de sesiones con errores y 10% de
+          sesiones normales
+        </li>
+        <li>Stack traces y contexto técnico de fallos</li>
+        <li>Información de rendimiento de la aplicación</li>
+        <li>
+          Política de privacidad:
+          <a href="https://sentry.io/privacy/" target="_blank"
+            >https://sentry.io/privacy/</a
+          >
+        </li>
+      </ul>
+
+      <p><strong>RevenueCat:</strong></p>
+      <ul>
+        <li>Procesa información de suscripciones premium</li>
+        <li>Sincroniza compras entre dispositivos</li>
+        <li>
+          No almacena información de tarjetas (procesado por Apple/Google)
+        </li>
+        <li>
+          Política de privacidad:
+          <a href="https://www.revenuecat.com/privacy/" target="_blank"
+            >https://www.revenuecat.com/privacy/</a
+          >
+        </li>
+      </ul>
+
+      <h3>2. Requisitos Legales</h3>
+      <ul>
+        <li>Cuando sea requerido por ley o proceso legal válido</li>
+        <li>Para proteger nuestros derechos legales</li>
+        <li>En caso de emergencia para proteger la seguridad de usuarios</li>
+      </ul>
+
+      <h3>3. Transferencias Corporativas</h3>
+      <ul>
+        <li>
+          En caso de fusión, adquisición o venta de activos (con notificación
+          previa)
+        </li>
+      </ul>
+
+      <h2>ALMACENAMIENTO Y SEGURIDAD</h2>
+
+      <h3>Medidas de Seguridad Implementadas:</h3>
+      <ul>
+        <li>
+          <strong>Encriptación</strong> de datos sensibles en tránsito y en
+          reposo
+        </li>
+        <li><strong>Autenticación</strong> segura con tokens de acceso</li>
+        <li>
+          <strong>Almacenamiento local</strong> encriptado en el dispositivo
+        </li>
+        <li><strong>Monitoreo</strong> continuo de seguridad</li>
+        <li><strong>Acceso restringido</strong> a datos personales</li>
+      </ul>
+
+      <h3>Retención de Datos:</h3>
+      <ul>
+        <li>
+          <strong>Datos de cuenta:</strong> Hasta que elimine su cuenta o
+          solicite eliminación explícita
+        </li>
+        <li>
+          <strong>Contenido de chat local:</strong> Almacenado en SQLite en su
+          dispositivo, eliminado al desinstalar la app
+        </li>
+        <li>
+          <strong>Contenido de chat remoto:</strong> Almacenado en Supabase
+          hasta eliminación de cuenta
+        </li>
+        <li>
+          <strong>Imágenes en Cloudinary:</strong> Hasta eliminación manual o
+          cierre de cuenta
+        </li>
+        <li>
+          <strong>Datos de análisis (Sentry):</strong> Agregados y anonimizados
+          después de 90 días
+        </li>
+        <li>
+          <strong>Datos de compras (RevenueCat):</strong> Retenidos según
+          requisitos legales y fiscales (hasta 7 años)
+        </li>
+        <li>
+          <strong>Logs de Branch.io:</strong> Según políticas de Branch.io
+          (típicamente 90 días)
+        </li>
+        <li>
+          <strong>Perfiles en Supabase:</strong> Hasta eliminación explícita de
+          cuenta
+        </li>
+      </ul>
+
+      <h3>Almacenamiento Local en el Dispositivo:</h3>
+      <p>La aplicación utiliza bases de datos SQLite locales para almacenar:</p>
+
+      <p><strong>Base de Datos de Chats (chat.sqlite):</strong></p>
+      <ul>
+        <li>Hilos de conversación con asistentes</li>
+        <li>Mensajes intercambiados con contexto completo</li>
+        <li>Marcas de tiempo de todas las interacciones</li>
+        <li>Identificadores de asistentes y temas</li>
+      </ul>
+
+      <p><strong>Base de Datos de Gemini (gemini_chat.sqlite):</strong></p>
+      <ul>
+        <li>Conversaciones completas con la IA Gemini</li>
+        <li>Mensajes enviados y respuestas generadas</li>
+        <li>Rutas de imágenes de portada de chats</li>
+        <li>Respuestas estructuradas en formato JSON</li>
+        <li>Historial completo de interacciones con IA</li>
+      </ul>
+
+      <p><strong>Cómo eliminar datos locales:</strong></p>
+      <ul>
+        <li>Desinstalando la aplicación (elimina todo)</li>
+        <li>Limpiando datos de la app desde configuración del sistema</li>
+        <li>
+          Usando la opción "Limpiar caché" dentro de la app (próximamente)
+        </li>
+      </ul>
+
+      <h2>SISTEMA DE REFERRALS Y DEEP LINKS</h2>
+
+      <h3>¿Qué son los Deep Links?</h3>
+      <p>
+        Los deep links son enlaces especiales que permiten abrir la aplicación
+        directamente en una sección específica. Nuestra aplicación utiliza
+        <strong>Branch.io</strong> para gestionar estos enlaces.
+      </p>
+
+      <h3>Información Recopilada por Deep Links:</h3>
+      <p>
+        Cuando accede a la aplicación mediante un enlace compartido o código de
+        referral, recopilamos:
+      </p>
+      <ul>
+        <li>
+          <strong>Fuente de instalación:</strong> Cómo descubrió la aplicación
+          (enlace, publicidad, referral)
+        </li>
+        <li>
+          <strong>Código de referral:</strong> Si fue invitado por otro usuario,
+          guardamos esta información
+        </li>
+        <li>
+          <strong>Campaña de origen:</strong> Qué campaña de marketing lo trajo
+          a la app
+        </li>
+        <li>
+          <strong>Datos del dispositivo:</strong> Información técnica del
+          dispositivo que abre el enlace
+        </li>
+        <li>
+          <strong>Timestamp:</strong> Fecha y hora de la instalación/apertura
+        </li>
+      </ul>
+
+      <h3>Enlaces Utilizados:</h3>
+      <p>Nuestra aplicación utiliza los siguientes esquemas de enlaces:</p>
+      <ul>
+        <li><strong>Esquema personalizado:</strong> thegameapp://open</li>
+        <li><strong>Dominio principal:</strong> gothegame.app</li>
+        <li>
+          <strong>Dominios de Branch.io:</strong> cy7mw-alternate.app.link,
+          cy7mw-alternate.test-app.link
+        </li>
+      </ul>
+
+      <h2>TRANSFERENCIAS INTERNACIONALES</h2>
+
+      <div class="warning">
+        <p>
+          <strong>⚠️ IMPORTANTE:</strong> Sus datos serán transferidos y
+          procesados en países fuera de su jurisdicción.
+        </p>
+      </div>
+
+      <h3>Ubicación de Datos por Servicio:</h3>
+      <ul>
+        <li>
+          <strong>Supabase:</strong> Servidores ubicados en múltiples regiones
+          (EE.UU., Europa, Asia-Pacífico según configuración)
+        </li>
+        <li>
+          <strong>Google Gemini AI:</strong> Centros de datos de Google Cloud
+          (global)
+        </li>
+        <li>
+          <strong>Cloudinary:</strong> Infraestructura global con CDN
+          distribuida mundialmente
+        </li>
+        <li><strong>Branch.io:</strong> Servidores en Estados Unidos</li>
+        <li><strong>Sentry:</strong> Servidores en Estados Unidos</li>
+        <li><strong>RevenueCat:</strong> Servidores en Estados Unidos</li>
+      </ul>
+
+      <h3>Medidas de Protección para Transferencias Internacionales:</h3>
+      <p>
+        Nos aseguramos de que dichas transferencias cumplan con las leyes de
+        protección de datos aplicables (GDPR, CCPA, etc.) mediante:
+      </p>
+      <ul>
+        <li>
+          <strong>Cláusulas contractuales estándar (SCC)</strong> aprobadas por
+          la Comisión Europea
+        </li>
+        <li>
+          <strong>Certificaciones de adecuación</strong> de los proveedores de
+          servicios
+        </li>
+        <li>
+          <strong>Medidas de seguridad técnicas</strong> (encriptación en
+          tránsito y reposo)
+        </li>
+        <li>
+          <strong>Acuerdos de procesamiento de datos (DPA)</strong> con todos
+          los proveedores
+        </li>
+        <li>
+          <strong>Marco de Privacidad de Datos UE-EE.UU.</strong> cuando aplique
+        </li>
+      </ul>
+
+      <h2>SUS DERECHOS Y OPCIONES</h2>
+
+      <h3>Derechos del Usuario:</h3>
+      <ol>
+        <li>
+          <strong>Acceso</strong> - Solicitar una copia de sus datos personales
+        </li>
+        <li>
+          <strong>Corrección</strong> - Actualizar o corregir información
+          inexacta
+        </li>
+        <li>
+          <strong>Eliminación</strong> - Solicitar la eliminación de sus datos
+        </li>
+        <li>
+          <strong>Portabilidad</strong> - Exportar sus datos en formato legible
+        </li>
+        <li>
+          <strong>Oposición</strong> - Oponerse al procesamiento de sus datos
+        </li>
+        <li>
+          <strong>Restricción</strong> - Limitar el procesamiento de sus datos
+        </li>
+      </ol>
+
+      <h3>Cómo Ejercer Sus Derechos:</h3>
+      <ul>
+        <li>
+          <strong>Configuración de la app</strong> - Acceder a configuraciones
+          de privacidad
+        </li>
+        <li>
+          <strong>Contacto directo</strong> - Enviar solicitud a
+          thegameapp00@gmail.com
+        </li>
+        <li>
+          <strong>Eliminación de cuenta</strong> - Disponible en configuración
+          de perfil
+        </li>
+      </ul>
+
+      <h2>MENORES DE EDAD</h2>
+      <p>
+        Aura Alpha App no está dirigida a menores de 13 años. No recopilamos
+        conscientemente información personal de menores de 13 años. Si
+        descubrimos que hemos recopilado información de un menor de 13 años, la
+        eliminaremos inmediatamente.
+      </p>
+      <p>Para usuarios entre 13-18 años, recomendamos supervisión parental.</p>
+
+      <h2>CUMPLIMIENTO REGULATORIO</h2>
+
+      <h3>Regulaciones Aplicables:</h3>
+      <ul>
+        <li>
+          <strong>Ley N° 29733</strong> - Ley de Protección de Datos Personales
+          (Perú)
+        </li>
+        <li>
+          <strong>GDPR</strong> (Reglamento General de Protección de Datos) -
+          Para usuarios en la UE
+        </li>
+        <li>
+          <strong>CCPA</strong> (Ley de Privacidad del Consumidor de California)
+          - Para usuarios en California
+        </li>
+        <li>
+          <strong>COPPA</strong> (Ley de Protección de la Privacidad Infantil en
+          Línea) - Para menores
+        </li>
+        <li>
+          <strong>Leyes locales</strong> de protección de datos según
+          jurisdicción
+        </li>
+      </ul>
+
+      <h2>CONTACTO Y RECLAMOS</h2>
+
+      <div class="contact-box">
+        <h3>Responsable del Tratamiento de Datos:</h3>
+        <p><strong>Nombre de la Empresa:</strong> Aura Alpha S.A.C.</p>
+        <p><strong>Domicilio Legal:</strong> Chaclacayo, Lima, Perú</p>
+        <p><strong>Registro Fiscal/RUC:</strong> [Pendiente]</p>
+
+        <h4>Contacto Principal:</h4>
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:thegameapp00@gmail.com">thegameapp00@gmail.com</a>
+        </p>
+        <p><strong>Teléfono:</strong> +51 986 666 606</p>
+        <p>
+          <strong>Sitio Web:</strong>
+          <a href="https://auraalpha.com" target="_blank">auraalpha.com</a>
+        </p>
+
+        <h4>Para Solicitudes de Privacidad:</h4>
+        <p>
+          <strong>Email específico:</strong>
+          <a href="mailto:thegameapp00@gmail.com">thegameapp00@gmail.com</a>
+        </p>
+      </div>
+
+      <h3>Autoridad de Supervisión en Perú:</h3>
+      <p>
+        Si no está satisfecho con nuestra respuesta a sus solicitudes de
+        privacidad, puede presentar una queja ante:
+      </p>
+      <ul>
+        <li>
+          <strong>Autoridad Nacional de Protección de Datos Personales</strong>
+        </li>
+        <li>Ministerio de Justicia y Derechos Humanos</li>
+        <li>
+          Web:
+          <a
+            href="https://www.minjus.gob.pe/wp/direccion-general-de-transparencia-acceso-a-la-informacion-publica-y-proteccion-de-datos-personales/"
+            target="_blank"
+            >Ministerio de Justicia - Perú</a
+          >
+        </li>
+      </ul>
+
+      <h3>Para usuarios en la Unión Europea:</h3>
+      <ul>
+        <li>
+          Consulte la lista de autoridades en:
+          <a
+            href="https://edpb.europa.eu/about-edpb/board/members_es"
+            target="_blank"
+            >https://edpb.europa.eu/about-edpb/board/members_es</a
+          >
+        </li>
+      </ul>
+
+      <hr style="margin: 2rem 0" />
+
+      <p>
+        <strong
+          >Esta Política de Privacidad es efectiva a partir del 6 de Octubre de
+          2025 y se aplica a todos los usuarios de Aura Alpha App.</strong
+        >
+      </p>
+
+      <a href="#home" class="back-link">← Volver al inicio</a>
+    </div>
+  </body>
+</html>

@@ -1,231 +1,580 @@
-<body>
-    <main style="margin: 2rem;">
-        <br>
-        <br>
-        <br>
-        <h1 data-i18n="terms_title">Terms and Conditions</h1>
-        <br>
-        <p data-i18n="terms_date">Last updated: April 9, 2025</p>
-        <br>
-        <p data-i18n="terms_paragraph_1">
-            These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf
-            of an
-            entity ("you"), and Aura Alpha S.A.C., concerning your access to and use of the Services. By accessing the
-            Services, you agree
-            that you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH
-            ALL OF THESE
-            LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE
-            IMMEDIATELY.
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Términos de Servicio - Aura Alpha App</title>
+    <style>
+      @font-face {
+        font-family: "Clash Display";
+        src: url("/public/fonts/ClashDisplay-Regular.otf") format("opentype");
+        font-weight: 400;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "Clash Display";
+        src: url("/public/fonts/ClashDisplay-Medium.otf") format("opentype");
+        font-weight: 500;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "Clash Display";
+        src: url("/public/fonts/ClashDisplay-Semibold.otf") format("opentype");
+        font-weight: 600;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "Clash Display";
+        src: url("/public/fonts/ClashDisplay-Bold.otf") format("opentype");
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      body {
+        font-family: "Clash Display", -apple-system, BlinkMacSystemFont,
+          "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 2rem;
+        background: #f5f5f5;
+      }
+      .container {
+        background: white;
+        padding: 3rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #000;
+        border-bottom: 3px solid #000;
+        padding-bottom: 1rem;
+        margin-bottom: 2rem;
+      }
+      h2 {
+        color: #000;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+      }
+      h3 {
+        color: #000;
+        margin-top: 1.5rem;
+      }
+      .metadata {
+        background: #f3f4f6;
+        padding: 1rem;
+        border-radius: 4px;
+        margin-bottom: 2rem;
+      }
+      .warning {
+        background: #fef3c7;
+        border-left: 4px solid #f59e0b;
+        padding: 1rem;
+        margin: 1rem 0;
+      }
+      ul {
+        margin-left: 1.5rem;
+      }
+      li {
+        margin-bottom: 0.5rem;
+      }
+      .back-link {
+        display: inline-block;
+        margin-top: 2rem;
+        padding: 0.5rem 1rem;
+        background: #000;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background 0.3s;
+      }
+      .back-link:hover {
+        background: #333;
+      }
+      .contact-box {
+        background: #ede9fe;
+        padding: 1.5rem;
+        border-radius: 4px;
+        margin: 1rem 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>TÉRMINOS DE SERVICIO - AURA ALPHA APP</h1>
+
+      <div class="metadata">
+        <p>
+          <strong>Fecha de última actualización:</strong> 6 de Octubre de 2025
         </p>
-        <br>
-        <p data-i18n="terms_paragraph_2">
-            Supplemental terms and conditions or documents that may be posted on the Services from time to
-            time are
-            hereby
-            expressly incorporated herein by reference. We reserve the right, in our sole discretion, to
-            make
-            changes
-            or modifications to these Legal Terms from time to time. We will alert you about any changes
-            by updating
-            the date
-            of "Last updated" of these Legal Terms, and you waive any right to receive specific notice of
-            each change. It is your responsibility to periodically review these Legal Terms to stay informed
-            of the
-            updates. You will be subject to, and will be deemed to have been made aware of and to have accepted, the
-            changes in
-            any
-            revised Legal Terms by your continued use of the Services after the date such revised Legal Terms
-            are
-            posted.
+        <p><strong>Versión:</strong> 1.0</p>
+        <p><strong>Fecha de vigencia:</strong> 6 de Octubre de 2025</p>
+      </div>
+
+      <h2>ACEPTACIÓN DE LOS TÉRMINOS</h2>
+      <p>
+        Bienvenido a <strong>Aura Alpha App</strong> ("la Aplicación", "el
+        Servicio", "nosotros", "nuestro"). Al descargar, instalar, acceder o
+        utilizar nuestra aplicación móvil, usted acepta estar legalmente
+        vinculado por estos Términos de Servicio ("Términos"). Si no está de
+        acuerdo con alguno de estos términos, no debe utilizar la Aplicación.
+      </p>
+      <p>
+        Estos Términos constituyen un acuerdo legal entre usted y
+        <strong>Aura Alpha S.A.C.</strong> ("la Empresa", "nosotros").
+      </p>
+
+      <h2>DESCRIPCIÓN DEL SERVICIO</h2>
+
+      <h3>Funcionalidades Principales:</h3>
+      <p>Aura Alpha App es una aplicación móvil que ofrece:</p>
+      <ol>
+        <li>
+          <strong>Sistema de Chat con IA</strong> - Interacción con inteligencia
+          artificial (Gemini) para análisis y conversación
+        </li>
+        <li>
+          <strong>Galería de Baits</strong> - Creación, gestión y compartición
+          de contenido generado por usuarios
+        </li>
+        <li>
+          <strong>Tests Psicológicos</strong> - Evaluaciones interactivas ("shit
+          test") para autoconocimiento
+        </li>
+        <li>
+          <strong>Sistema de Onboarding</strong> - Proceso de registro
+          personalizado con preguntas adaptativas
+        </li>
+        <li>
+          <strong>Perfil de Usuario</strong> - Gestión de información personal y
+          preferencias
+        </li>
+        <li>
+          <strong>Suscripciones Premium</strong> - Acceso a funcionalidades
+          avanzadas mediante compras in-app
+        </li>
+      </ol>
+
+      <h3>Plataformas Soportadas:</h3>
+      <ul>
+        <li>
+          <strong>iOS:</strong> Versión mínima requerida: iOS 12.0 o superior
+        </li>
+        <li>
+          <strong>Android:</strong> Versión mínima requerida: Android 5.0 (API
+          21) o superior
+        </li>
+        <li>
+          <strong>Web:</strong> Disponibilidad limitada (solo lectura, sin
+          funciones completas)
+        </li>
+      </ul>
+
+      <h3>Requisitos Técnicos:</h3>
+      <ul>
+        <li>Conexión a Internet estable (Wi-Fi o datos móviles)</li>
+        <li>Espacio de almacenamiento: Mínimo 100 MB disponible</li>
+        <li>
+          Permisos necesarios:
+          <ul>
+            <li><strong>Cámara y galería:</strong> Para subir imágenes</li>
+            <li>
+              <strong>Internet:</strong> Para sincronización y servicios de IA
+            </li>
+            <li>
+              <strong>Notificaciones:</strong> Para actualizaciones y
+              recordatorios (opcional)
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <h2>LICENCIA DE USO</h2>
+
+      <h3>Licencia Otorgada:</h3>
+      <p>
+        Le otorgamos una licencia limitada, no exclusiva, no transferible y
+        revocable para:
+      </p>
+      <ul>
+        <li>Descargar e instalar la Aplicación en dispositivos personales</li>
+        <li>Utilizar la Aplicación según estos Términos</li>
+        <li>
+          Acceder a las funcionalidades disponibles según su nivel de
+          suscripción
+        </li>
+      </ul>
+
+      <h3>Restricciones de Uso:</h3>
+      <p><strong>Usted NO puede:</strong></p>
+      <ul>
+        <li>
+          Modificar, descompilar, hacer ingeniería inversa o crear trabajos
+          derivados
+        </li>
+        <li>Distribuir, sublicenciar, vender o alquilar la Aplicación</li>
+        <li>Utilizar la Aplicación para fines comerciales sin autorización</li>
+        <li>Interferir con el funcionamiento normal de la Aplicación</li>
+        <li>Intentar acceder a áreas restringidas o sistemas no autorizados</li>
+        <li>
+          Utilizar la Aplicación para actividades ilegales o no autorizadas
+        </li>
+        <li>Crear múltiples cuentas para evadir restricciones o límites</li>
+      </ul>
+
+      <h2>REGISTRO Y CUENTA DE USUARIO</h2>
+
+      <h3>Requisitos de Registro:</h3>
+      <ul>
+        <li>Debe ser mayor de 13 años (18 años recomendado)</li>
+        <li>Proporcionar información precisa y actualizada</li>
+        <li>Mantener la confidencialidad de sus credenciales</li>
+        <li>Notificar inmediatamente cualquier uso no autorizado</li>
+      </ul>
+
+      <h3>Métodos de Autenticación:</h3>
+      <ul>
+        <li><strong>Registro con email/contraseña</strong></li>
+        <li><strong>Google Sign-In</strong> (sujeto a términos de Google)</li>
+        <li><strong>Apple Sign-In</strong> (sujeto a términos de Apple)</li>
+      </ul>
+
+      <h2>SERVICIOS DE INTELIGENCIA ARTIFICIAL</h2>
+
+      <h3>Tecnología Utilizada:</h3>
+      <p>
+        La aplicación utiliza servicios de IA de vanguardia proporcionados por
+        <strong>Google Gemini AI</strong>:
+      </p>
+      <ul>
+        <li>
+          <strong>Gemini Flash 1.5:</strong> Análisis rápido de imágenes y
+          extracción de texto
+        </li>
+        <li>
+          <strong>Gemini Flash 2.0:</strong> Generación avanzada de contenido
+          personalizado
+        </li>
+      </ul>
+
+      <h3>Funcionalidad de IA:</h3>
+      <ul>
+        <li>
+          <strong>Análisis de texto en imágenes:</strong> Extracción y
+          comprensión de texto en capturas de pantalla
+        </li>
+        <li>
+          <strong>Generación de respuestas:</strong> Creación de contenido
+          conversacional contextualizado
+        </li>
+        <li>
+          <strong>Personalización:</strong> Adaptación de experiencias según
+          historial y comportamiento del usuario
+        </li>
+        <li>
+          <strong>Recomendaciones adaptativas:</strong> Sugerencias basadas en
+          patrones de uso
+        </li>
+        <li>
+          <strong>Generación de "baits":</strong> Creación de contenido para
+          redes sociales basado en imágenes
+        </li>
+      </ul>
+
+      <div class="warning">
+        <h3>⚠️ Limitaciones Importantes de IA:</h3>
+        <ul>
+          <li>
+            <strong>Precisión no garantizada:</strong> Las respuestas de IA son
+            generativas y pueden contener inexactitudes
+          </li>
+          <li>
+            <strong>No es consejo profesional:</strong> No constituyen consejo
+            médico, legal, financiero o profesional de ningún tipo
+          </li>
+          <li>
+            <strong>Entretenimiento y autoconocimiento:</strong> Deben usarse
+            como herramientas informativas, no decisionales
+          </li>
+          <li>
+            <strong>No reemplazan profesionales:</strong> Consulte siempre con
+            expertos calificados para decisiones importantes
+          </li>
+          <li>
+            <strong>Sesgo potencial:</strong> La IA puede reflejar sesgos
+            presentes en sus datos de entrenamiento
+          </li>
+          <li>
+            <strong>Contenido inapropiado:</strong> Aunque filtramos contenido,
+            pueden ocurrir respuestas inadecuadas ocasionalmente
+          </li>
+        </ul>
+      </div>
+
+      <h2>PRIVACIDAD Y PROTECCIÓN DE DATOS</h2>
+
+      <h3>Infraestructura y Proveedores de Servicios:</h3>
+
+      <p><strong>Backend y Base de Datos:</strong></p>
+      <ul>
+        <li>
+          <strong>Supabase</strong> (PostgreSQL Cloud): Almacena perfiles,
+          contenido generado, tests y autenticación
+          <ul>
+            <li>Backend principal de la aplicación</li>
+            <li>Gestiona toda la autenticación (email, Google, Apple)</li>
+            <li>Almacena datos de usuario de forma segura con encriptación</li>
+          </ul>
+        </li>
+      </ul>
+
+      <p><strong>Servicios de IA:</strong></p>
+      <ul>
+        <li>
+          <strong>Google Gemini AI:</strong> Procesamiento de lenguaje natural y
+          análisis de imágenes
+          <ul>
+            <li>Todas las conversaciones con IA se procesan en Google Cloud</li>
+            <li>Mantiene contexto de conversación para mejorar respuestas</li>
+          </ul>
+        </li>
+      </ul>
+
+      <p><strong>Almacenamiento de Imágenes:</strong></p>
+      <ul>
+        <li>
+          <strong>Cloudinary:</strong> Gestión de activos digitales
+          <ul>
+            <li>Almacena todas las imágenes subidas por usuarios</li>
+            <li>Genera versiones optimizadas y miniaturas</li>
+            <li>Proporciona URLs de acceso público</li>
+          </ul>
+        </li>
+      </ul>
+
+      <p><strong>Marketing y Tracking:</strong></p>
+      <ul>
+        <li>
+          <strong>Branch.io:</strong> Deep linking y atribución de instalación
+          <ul>
+            <li>Tracking de fuente de instalación</li>
+            <li>Gestión de códigos de referral</li>
+            <li>Medición de campañas de marketing</li>
+          </ul>
+        </li>
+      </ul>
+
+      <p><strong>Monitoreo:</strong></p>
+      <ul>
+        <li>
+          <strong>Sentry:</strong> Análisis de errores y rendimiento
+          <ul>
+            <li>Captura automática de errores</li>
+            <li>Session replay en sesiones con errores</li>
+            <li>Información técnica de diagnóstico</li>
+          </ul>
+        </li>
+      </ul>
+
+      <p><strong>Pagos:</strong></p>
+      <ul>
+        <li>
+          <strong>RevenueCat:</strong> Gestión de suscripciones
+          <ul>
+            <li>Procesa información de compras in-app</li>
+            <li>Sincroniza suscripciones entre dispositivos</li>
+            <li>No almacena datos de tarjetas (procesados por Apple/Google)</li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="warning">
+        <h3>⚠️ Transferencias Internacionales:</h3>
+        <p>
+          <strong
+            >Sus datos serán procesados en múltiples jurisdicciones:</strong
+          >
         </p>
-        <br>
-        <p data-i18n="terms_paragraph_3">
-            The Services are intended for users who are at least 18 years old. Persons under the age of 18
-            are not
-            permitted to use or register for the Services.
+        <ul>
+          <li>Estados Unidos (Branch.io, Sentry, RevenueCat)</li>
+          <li>Global (Supabase, Google Cloud, Cloudinary según región)</li>
+        </ul>
+        <p>
+          Implementamos medidas apropiadas para proteger sus datos según GDPR y
+          otras regulaciones.
         </p>
-        <br>
-        <p data-i18n="terms_paragraph_4">
-            We recommend that you print a copy of these Legal Terms for your
-            records.
+      </div>
+
+      <h3>Sus Derechos de Privacidad:</h3>
+      <p>Usted tiene derecho a:</p>
+      <ul>
+        <li>
+          <strong>Acceso:</strong> Solicitar copia de sus datos personales
+        </li>
+        <li><strong>Corrección:</strong> Actualizar información inexacta</li>
+        <li>
+          <strong>Eliminación:</strong> Solicitar borrado de sus datos ("derecho
+          al olvido")
+        </li>
+        <li>
+          <strong>Portabilidad:</strong> Exportar sus datos en formato legible
+        </li>
+        <li>
+          <strong>Oposición:</strong> Objetar ciertos procesamientos de datos
+        </li>
+        <li><strong>Restricción:</strong> Limitar cómo usamos sus datos</li>
+      </ul>
+
+      <h3>Cómo Ejercer Sus Derechos:</h3>
+      <ul>
+        <li>Desde la configuración de la app (opciones de privacidad)</li>
+        <li>Contactando a thegameapp00@gmail.com</li>
+        <li>Eliminando su cuenta desde perfil (borrado permanente)</li>
+      </ul>
+
+      <h2>SUSCRIPCIONES Y PAGOS</h2>
+
+      <h3>Modelo de Suscripción:</h3>
+      <ul>
+        <li><strong>Versión gratuita</strong> con funcionalidades básicas</li>
+        <li><strong>Suscripciones premium</strong> con acceso completo</li>
+        <li>
+          <strong>Compras in-app</strong> para funcionalidades específicas
+        </li>
+      </ul>
+
+      <h3>Procesamiento de Pagos:</h3>
+      <ul>
+        <li>
+          Pagos procesados por <strong>RevenueCat</strong> y plataformas de pago
+        </li>
+        <li>Sujetos a términos de Apple App Store y Google Play Store</li>
+        <li>Precios pueden variar según región y moneda local</li>
+      </ul>
+
+      <h2>LIMITACIÓN DE RESPONSABILIDAD</h2>
+
+      <h3>Descargo de Garantías:</h3>
+      <p>
+        La Aplicación se proporciona "TAL COMO ESTÁ" y "SEGÚN DISPONIBILIDAD".
+        No garantizamos:
+      </p>
+      <ul>
+        <li>Funcionamiento ininterrumpido o libre de errores</li>
+        <li>Precisión absoluta de servicios de IA</li>
+        <li>Disponibilidad continua del servicio</li>
+        <li>Compatibilidad con todos los dispositivos</li>
+      </ul>
+
+      <h3>Limitación de Daños:</h3>
+      <p>
+        En la máxima medida permitida por la ley, NO seremos responsables por:
+      </p>
+      <ul>
+        <li>Daños indirectos, incidentales o consecuenciales</li>
+        <li>Pérdida de datos o contenido del usuario</li>
+        <li>Pérdida de beneficios o oportunidades comerciales</li>
+        <li>Daños punitivos o ejemplares</li>
+        <li>Problemas de conectividad o rendimiento</li>
+      </ul>
+
+      <h2>LEY APLICABLE Y RESOLUCIÓN DE DISPUTAS</h2>
+
+      <h3>Ley Aplicable:</h3>
+      <p>
+        Estos Términos se rigen por las leyes de Perú, sin consideración a
+        principios de conflicto de leyes.
+      </p>
+
+      <h3>Resolución de Disputas:</h3>
+      <ol>
+        <li>
+          <strong>Negociación directa</strong> - Intentar resolver disputas
+          mediante comunicación directa
+        </li>
+        <li>
+          <strong>Mediación</strong> - Si la negociación falla, proceder a
+          mediación
+        </li>
+        <li>
+          <strong>Arbitraje</strong> - Para disputas no resueltas, arbitraje
+          vinculante
+        </li>
+        <li>
+          <strong>Tribunales</strong> - Como último recurso, tribunales
+          competentes de Lima, Perú
+        </li>
+      </ol>
+
+      <p>
+        <strong>Autoridad de Protección al Consumidor:</strong> Los usuarios
+        pueden recurrir a INDECOPI (Instituto Nacional de Defensa de la
+        Competencia y de la Protección de la Propiedad Intelectual) para la
+        defensa de sus derechos como consumidores.
+      </p>
+
+      <h2>CONTACTO Y SOPORTE</h2>
+
+      <div class="contact-box">
+        <h3>Información de Contacto:</h3>
+        <p><strong>Aura Alpha App</strong></p>
+        <p><strong>Empresa:</strong> Aura Alpha S.A.C.</p>
+        <p><strong>Domicilio Legal:</strong> Chaclacayo, Lima, Perú</p>
+        <p>
+          <strong>Email Principal:</strong>
+          <a href="mailto:thegameapp00@gmail.com">thegameapp00@gmail.com</a>
         </p>
-        <br>
-        <section>
-            <h2 data-i18n="terms_point_1_title">1. AGREEMENT TO THE TERMS</h2>
-            <ul>
-                <li data-i18n="terms_point_1_subpoint_1_title">
-                    By accessing and using "Aura Alpha App", you agree to these terms and conditions, as well as our
-                    Privacy Policy. If
-                    you do not agree, do not use the application.
-                </li>
-                <li data-i18n="terms_point_1_subpoint_2_title">
-                    These terms are governed by the applicable laws of Peru, and to the extent permitted, by
-                    international
-                    treaties.</li>
-                <li data-i18n="terms_point_1_subpoint_3_title">
-                    We reserve the right to modify these terms, notifying significant changes through
-                    the application or
-                    by email.</li>
-            </ul>
-        </section>
-        <section>
-            <h2 data-i18n="terms_point_2_title">2. USE OF THE APPLICATION</h2>
-            <ul>
-                <li data-i18n="terms_point_2_subpoint_1_title">
-                    You must be at least 18 years old to use the application. If you are a minor, you need the consent
-                    of
-                    your
-                    parents or legal
-                    guardian.</li>
-                <li data-i18n="terms_point_2_subpoint_2_title">
-                    You agree to use the application responsibly and legally, respecting the rights of other
-                    users.</li>
-                <li data-i18n="terms_point_2_subpoint_3_title">
-                    The use of the application for illegal, discriminatory activities, or those that violate the rights
-                    of
-                    third parties, is prohibited.</li>
-            </ul>
-        </section>
-        <section>
-            <h2 data-i18n="terms_point_3_title">3. INTELLECTUAL PROPERTY</h2>
-            <ul>
-                <li data-i18n="terms_point_3_subpoint_1_title">
-                    All content of the application (texts, images, code, etc.) is the property of Aura Alpha S.A.C.
-                    or third-party
-                    licensors.</li>
-                <li data-i18n="terms_point_3_subpoint_2_title">
-                    The unauthorized reproduction, distribution, or modification of the content is prohibited.</li>
-                <li data-i18n="terms_point_3_subpoint_3_title">
-                    User contributions (comments, generated content, etc.) grant Aura Alpha S.A.C.
-                    a license for
-                    their use, distribution, and modification.</li>
-            </ul>
-        </section>
-        <section>
-            <h2 data-i18n="terms_point_4_title">4. PRIVACY AND DATA PROTECTION</h2>
-            <ul>
-                <li data-i18n="terms_point_4_subpoint_1_title">
-                    We comply with the applicable data protection laws in Peru, including Law N° 29733, Personal Data
-                    Protection
-                    Law, and its regulations.
-                </li>
-                <li data-i18n="terms_point_4_subpoint_2_title">
-                    We collect and use your data according to our Privacy Policy, available at <a
-                        style="text-decoration: underline; color: mediumpurple;" href="#privacy">Link
-                        to Privacy
-                        Policy</a>.
-                </li>
-                <li data-i18n="terms_point_4_subpoint_3_title">
-                    You have the right to access, rectify, cancel, or oppose the use of your data, in accordance with
-                    Law
-                    N°
-                    29733.</li>
-            </ul>
-        </section>
-        <section>
-            <h2 data-i18n="terms_point_5_title">5. PAYMENTS AND TRANSACTIONS</h2>
-            <ul>
-                <li data-i18n="terms_point_5_subpoint_1_title">
-                    Payments made through the application are processed securely, complying with local financial
-                    regulations.
-                </li>
-                <li data-i18n="terms_point_5_subpoint_2_title">
-                    Prices will be expressed in Peruvian Soles (PEN) and will include applicable taxes.
-                </li>
-                <li data-i18n="terms_point_5_subpoint_3_title">
-                    Refund policies are detailed in the application and will be adjusted to Peruvian consumer protection
-                    laws.</li>
-            </ul>
-        </section>
-        <section>
-            <h2 data-i18n="terms_point_6_title">6. LIMITATION OF LIABILITY</h2>
-            <ul>
-                <li data-i18n="terms_point_6_subpoint_1_title">
-                    Aura Alpha S.A.C. is not liable for direct, indirect, incidental, or consequential damages
-                    arising from the use of
-                    the application, except in cases where Peruvian law requires it.
-                </li>
-                <li data-i18n="terms_point_6_subpoint_2_title">
-                    The application is provided "as is", without warranties of any kind.
-                </li>
-                <li data-i18n="terms_point_6_subpoint_3_title">
-                    It is important to note that in Peru, consumer protection laws are very strong, so
-                    limiting the
-                    liability of a company is somewhat complex.</li>
-            </ul>
-        </section>
-        <section>
-            <h2 data-i18n="terms_point_7_title">7. DISPUTE RESOLUTION</h2>
-            <ul>
-                <li data-i18n="terms_point_7_subpoint_1_title">
-                    Any dispute related to these terms will be resolved through arbitration or in the courts
-                    of
-                    Lima, Peru,
-                    as permitted by law.
-                </li>
-                <li data-i18n="terms_point_7_subpoint_2_title"> We will strive to resolve any conflict amicably before
-                    resorting to legal action.</li>
-                <li data-i18n="terms_point_7_subpoint_3_title">
-                    Users are informed that they can resort to INDECOPI (National Institute for the Defense of
-                    Competition
-                    and the
-                    Protection of Intellectual Property) for the defense of their rights as consumers.</li>
-            </ul>
-        </section>
-        <section>
-            <h2 data-i18n="terms_point_8_title">8. APPLICABLE LAW AND JURISDICTION</h2>
-            <ul>
-                <li data-i18n="terms_point_8_subpoint_1_title">
-                    These terms are governed by the laws of Peru.
-                </li>
-                <li data-i18n="terms_point_8_subpoint_2_title">
-                    Any dispute will be submitted to the exclusive jurisdiction of the courts of Lima, Peru.
-                </li>
-            </ul>
-        </section>
-        <br>
-        <section>
-            <h2 data-i18n="terms_point_9_title">Additional Considerations for Peru:</h2>
-            <h3 data-i18n="terms_point_9_subpoint_1_title">Consumer Protection:</h3>
-            <ul>
-                <li data-i18n="terms_point_9_subpoint_2_title">
-                    Includes clauses that respect consumer rights, according to the Consumer Protection and Defense Code
-                    (Law
-                    N° 29571).
-                </li>
-                <li data-i18n="terms_point_9_subpoint_4_title">
-                    Informs about the claim mechanisms and consumer protection authorities
-                    (INDECOPI).
-                </li>
-            </ul>
-            <h3 data-i18n="terms_point_9_subpoint_6_title">Currency and Taxes:</h3>
-            <ul>
-                <li data-i18n="terms_point_9_subpoint_5_title">
-                    Specifies that prices are expressed in Peruvian Soles (PEN) and include the General Sales Tax
-                    (IGV).
-                </li>
-            </ul>
-            <h3 data-i18n="terms_point_9_subpoint_6_title">Local Laws:</h3>
-            <ul>
-                <li data-i18n="terms_point_9_subpoint_7_title">
-                    Ensure compliance with Law N° 29733 (Personal Data Protection), Law N° 29571 (Consumer Protection
-                    and
-                    Defense Code), and other relevant Peruvian laws.
-                </li>
-            </ul>
-            <h3 data-i18n="terms_point_9_subpoint_8_title">Accessibility:</h3>
-            <ul>
-                <li data-i18n="terms_point_9_subpoint_8_title">
-                    Consider accessibility for users with disabilities, according to Law N° 29973 (General Law on
-                    Persons
-                    with
-                    Disabilities).
-                </li>
-            </ul>
-        </section>
-        <br>
-        <a href="#home" data-i18n="terms_back_to_home">
-            ← Back to home
-        </a>
-    </main>
-</body>
+        <p><strong>Teléfono:</strong> +51 986 666 606</p>
+        <p>
+          <strong>Sitio Web:</strong>
+          <a href="https://auraalpha.com" target="_blank">auraalpha.com</a>
+        </p>
+      </div>
+
+      <h3>Soporte Técnico:</h3>
+      <ul>
+        <li><strong>Email de soporte:</strong> thegameapp00@gmail.com</li>
+        <li>
+          <strong>Horario de atención:</strong> Lunes a Viernes, 9:00 AM - 6:00
+          PM (GMT-5)
+        </li>
+        <li>
+          <strong>Tiempo de respuesta esperado:</strong> 24-48 horas hábiles
+        </li>
+      </ul>
+
+      <h2>CUMPLIMIENTO REGULATORIO EN PERÚ</h2>
+
+      <h3>Leyes Aplicables:</h3>
+      <ul>
+        <li>
+          <strong>Ley N° 29733</strong> - Ley de Protección de Datos Personales
+        </li>
+        <li>
+          <strong>Ley N° 29571</strong> - Código de Protección y Defensa del
+          Consumidor
+        </li>
+        <li><strong>GDPR</strong> - Para usuarios en la Unión Europea</li>
+        <li><strong>CCPA</strong> - Para usuarios en California, EE.UU.</li>
+      </ul>
+
+      <hr style="margin: 2rem 0" />
+
+      <p>
+        <strong
+          >Estos Términos de Servicio son efectivos a partir del 6 de Octubre de
+          2025 y se aplican a todos los usuarios de Aura Alpha App.</strong
+        >
+      </p>
+      <p>
+        <strong
+          >Al continuar usando la aplicación después de esta fecha, usted acepta
+          automáticamente estos términos actualizados.</strong
+        >
+      </p>
+
+      <a href="#home" class="back-link">← Volver al inicio</a>
+    </div>
+  </body>
+</html>
