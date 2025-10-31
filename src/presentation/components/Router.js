@@ -1,3 +1,5 @@
+import i18n from "../../../public/js/i18n/i18n.js";
+
 /**
  * Clase Router
  * Maneja la navegación entre vistas
@@ -36,6 +38,9 @@ export class Router {
 
         const content = await response.text();
         document.getElementById("app-content").innerHTML = content;
+        
+        // Aplicar traducciones al contenido cargado dinámicamente
+        i18n.applyTranslations();
       } catch (error) {
         console.error("Error cargando la vista:", error);
         document.getElementById("app-content").innerHTML =

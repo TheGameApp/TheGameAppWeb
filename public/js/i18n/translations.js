@@ -102,6 +102,23 @@ const translations = {
     footer_reviews: "Reviews",
     footer_copyright: "Copyright 2025 AuraAlphaApp.Com All Rights Reserved",
 
+    // Stores Page
+    nav_stores: "Stores",
+    stores_title: "AuraAlphaApp",
+    stores_subtitle: "Master The Art of Social Connections",
+    stores_description: "Download AuraAlphaApp and transform your social interactions with AI-powered conversation tools",
+    stores_download_on: "Download on",
+    stores_google_play: "Google Play",
+    stores_app_store: "App Store",
+    stores_visit: "Visit",
+    stores_website: "Our Website",
+    stores_follow_us: "Follow Us",
+    stores_instagram: "Instagram",
+    stores_twitter: "Twitter / X",
+    stores_tiktok: "TikTok",
+    stores_youtube: "YouTube",
+    stores_footer: "© 2025 AuraAlphaApp. All Rights Reserved.",
+
     // Terms
     terms_title: "Terms and Conditions",
     terms_date: "Last updated: April 9, 2025",
@@ -416,6 +433,23 @@ const translations = {
     footer_reviews: "Reseñas",
     footer_copyright:
       "Copyright 2025 AuraAlphaApp.Com Todos los Derechos Reservados",
+
+    // Página de Tiendas
+    nav_stores: "Tiendas",
+    stores_title: "AuraAlphaApp",
+    stores_subtitle: "Domina El Arte de las Conexiones Sociales",
+    stores_description: "Descarga AuraAlphaApp y transforma tus interacciones sociales con herramientas de conversación impulsadas por IA",
+    stores_download_on: "Descargar en",
+    stores_google_play: "Google Play",
+    stores_app_store: "App Store",
+    stores_visit: "Visitar",
+    stores_website: "Nuestro Sitio Web",
+    stores_follow_us: "Síguenos",
+    stores_instagram: "Instagram",
+    stores_twitter: "Twitter / X",
+    stores_tiktok: "TikTok",
+    stores_youtube: "YouTube",
+    stores_footer: "© 2025 AuraAlphaApp. Todos los Derechos Reservados.",
 
     // Terms
     terms_title: "Términos y Condiciones",

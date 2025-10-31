@@ -21,6 +21,7 @@
 @import "sections/features.css";
 @import "sections/testimonials.css";
 @import "sections/cta.css";
+@import "sections/stores.css";
 
 /* Utilidades */
 @import "utils/animations.css";

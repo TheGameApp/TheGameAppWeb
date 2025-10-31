@@ -7,8 +7,8 @@ import translations from "./translations.js";
 class I18n {
   constructor() {
     // Available languages
-    this.languages = ["en", "es"];
-    this.defaultLanguage = "en";
+    this.languages = ["es", "en"];
+    this.defaultLanguage = "es";
 
     // Detect browser language
     this.currentLanguage = this.detectLanguage();

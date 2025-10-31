@@ -30,6 +30,7 @@ class App {
     // Configurar rutas
     this.router
       .addRoute("home", "home.html")
+      .addRoute("stores", "stores.html")
       .addRoute("terms", "terms.html")
       .addRoute("privacy", "privacy-policy.html")
       .addRoute("delete-account", "delete-account.html");
@@ -43,7 +44,7 @@ class App {
 
   setupNavigation() {
     // Lista de enlaces de navegación
-    const links = ["home", "about", "pricing", "features", "terms", "privacy"];
+    const links = ["home", "about", "pricing", "features", "stores", "terms", "privacy"];
 
     links.forEach((link) => {
       document
