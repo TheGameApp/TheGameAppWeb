@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'apps/aura_alpha_web/**'
   workflow_dispatch:
 
 jobs:
@@ -25,5 +23,5 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: aura-alpha-web
-          directory: apps/aura_alpha_web
+          directory: .
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}

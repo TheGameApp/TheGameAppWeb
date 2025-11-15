@@ -21,12 +21,11 @@
    Framework preset: None
    Build command: (dejar vacío)
    Build output directory: /
-   Root directory (advanced): apps/aura_alpha_web
+   Root directory (advanced): (dejar vacío - usar raíz)
    ```
 
 4. **Deploy automático**
    - Cada push a `main` desplegará automáticamente
-   - Los cambios en `apps/aura_alpha_web/**` actualizarán Aura Alpha
 
 ---
 
@@ -81,7 +80,6 @@ wrangler login
 ### Deploy Aura Alpha Web
 
 ```bash
-cd apps/aura_alpha_web
 wrangler pages deploy . --project-name=aura-alpha-web
 ```
 
