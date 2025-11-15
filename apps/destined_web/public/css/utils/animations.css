@@ -1,0 +1,141 @@
+/* Animaciones */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: var(--shadow-md);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: var(--shadow-xl);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: var(--shadow-md);
+  }
+}
+
+@keyframes rotateStar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Nuevas animaciones para testimonios */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: var(--shadow-lg);
+  }
+  50% {
+    box-shadow: 0 15px 30px rgba(138, 124, 255, 0.3);
+  }
+  100% {
+    box-shadow: var(--shadow-lg);
+  }
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes starPulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Clases de animación */
+.fade-in {
+  animation: fadeInUp 0.8s forwards;
+}
+
+.fade-in-delay-1 {
+  animation: fadeInUp 0.8s forwards 0.3s;
+}
+
+.fade-in-delay-2 {
+  animation: fadeInUp 0.8s forwards 0.6s;
+}
+
+.fade-in-delay-3 {
+  animation: fadeInUp 0.8s forwards 0.9s;
+}
+
+.pulse {
+  animation: pulse 3s infinite ease-in-out;
+}
+
+.rotate {
+  animation: rotateStar 10s linear infinite;
+}
+
+.float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.glow {
+  animation: glow 4s ease-in-out infinite;
+}
+
+.gradient-shift {
+  animation: gradientShift 8s ease infinite;
+}
+
+.star-pulse {
+  animation: starPulse 2s ease-in-out infinite;
+}
+
+/* Animaciones con retraso para testimonios */
+.testimonial-anim-1 {
+  animation-delay: 0s;
+}
+
+.testimonial-anim-2 {
+  animation-delay: 0.3s;
+}
+
+.testimonial-anim-3 {
+  animation-delay: 0.6s;
+}

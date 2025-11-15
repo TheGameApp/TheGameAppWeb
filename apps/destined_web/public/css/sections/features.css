@@ -1,0 +1,223 @@
+/* Features Section */
+.features-section {
+  padding: 0 0 2rem 0;
+  background-color: var(--color-white);
+  overflow: hidden;
+}
+
+.features-container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.features-container.reverse {
+  flex-direction: row-reverse;
+}
+
+.feature-content {
+  flex: 1;
+  max-width: 550px;
+}
+
+.feature-label {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--color-lavender);
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.feature-title {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.1;
+  margin-bottom: 3rem;
+  color: var(--color-black);
+  background: var(--gradient-title);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.feature-item {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.feature-icon {
+  font-size: 1.5rem;
+  min-width: 40px;
+  height: 40px;
+  background: linear-gradient(
+    135deg,
+    rgba(138, 124, 255, 0.2),
+    rgba(77, 238, 234, 0.2)
+  );
+  border-radius: var(--border-radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(138, 124, 255, 0.15);
+}
+
+.feature-text h3 {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-black);
+}
+
+.feature-text p {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-medium);
+}
+
+.feature-image-container {
+  flex: 1;
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-phone {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  position: relative;
+  z-index: var(--z-index-content);
+  filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.1));
+  transform: perspective(1000px) rotateY(-5deg);
+  transition: var(--transition-fast);
+}
+
+.feature-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: var(--z-index-background);
+}
+
+.feature-gradient {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(
+    circle,
+    rgba(138, 124, 255, 0.25) 0%,
+    rgba(77, 238, 234, 0) 70%
+  );
+  border-radius: var(--border-radius-full);
+}
+
+.feature-gradient.reverse {
+  background: radial-gradient(
+    circle,
+    rgba(77, 238, 234, 0.2) 0%,
+    rgba(138, 124, 255, 0) 70%
+  );
+}
+
+/* Responsive styles for features section */
+@media (max-width: 992px) {
+  .features-container {
+    padding: 3rem var(--spacing-lg);
+    gap: 3rem;
+  }
+
+  .feature-title {
+    font-size: 3rem;
+  }
+
+  .feature-image-container {
+    height: 500px;
+  }
+
+  .feature-phone {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .features-section {
+    padding: 2rem 0;
+  }
+
+  .features-container {
+    flex-direction: column;
+    padding: 0 var(--spacing-lg);
+    gap: var(--spacing-lg);
+  }
+
+  .features-container.reverse {
+    flex-direction: column;
+  }
+
+  .feature-content {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .feature-title {
+    font-size: 2.5rem;
+    margin-bottom: var(--spacing-lg);
+  }
+
+  .feature-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .feature-image-container {
+    height: 400px;
+    order: -1;
+  }
+
+  .feature-phone {
+    max-width: 300px;
+    transform: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .feature-title {
+    font-size: 2rem;
+  }
+
+  .feature-image-container {
+    height: 350px;
+  }
+
+  .feature-phone {
+    max-width: 250px;
+  }
+}

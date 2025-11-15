@@ -23,6 +23,12 @@ class TestimonialsCarousel {
     }
 
     init() {
+        // Check if all required elements exist
+        if (!this.carousel || !this.track || !this.prevBtn || !this.nextBtn) {
+            console.warn('Carousel elements not found. Skipping initialization.');
+            return;
+        }
+
         // Set up event listeners
         this.prevBtn.addEventListener('click', () => this.prevSlide());
         this.nextBtn.addEventListener('click', () => this.nextSlide());
@@ -146,7 +152,16 @@ class TestimonialsCarousel {
     }
 }
 
-// Initialize carousel when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    const testimonialsCarousel = new TestimonialsCarousel();
-}); 
+// Initialize carousel when content is dynamically loaded
+function initCarousel() {
+    const carouselElement = document.querySelector('.testimonials-carousel');
+    if (carouselElement) {
+        new TestimonialsCarousel();
+    }
+}
+
+// Initialize on DOMContentLoaded (for initial page load)
+document.addEventListener('DOMContentLoaded', initCarousel);
+
+// Re-initialize when dynamic content is loaded
+window.addEventListener('contentLoaded', initCarousel); 

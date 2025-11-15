@@ -1,0 +1,108 @@
+/* Estilos del encabezado */
+header {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  padding: 1rem 0;
+  box-shadow: var(--shadow-sm);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: var(--z-index-header);
+  height: 80px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg);
+  height: 100%;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  height: 30px;
+  width: auto;
+  margin-right: 8px;
+}
+
+.logo-text {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--color-black);
+}
+
+.logo-trademark {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 0.7rem;
+  color: var(--color-black);
+  align-self: flex-start;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+
+/* Estilos para el menú móvil */
+.mobile-menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  cursor: pointer;
+  z-index: 1001;
+  position: relative;
+}
+
+.mobile-menu-toggle span {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: var(--color-black);
+  border-radius: 3px;
+  transition: var(--transition-fast);
+}
+
+.mobile-menu-toggle.active span:nth-child(1) {
+  transform: translateY(9px) rotate(45deg);
+}
+
+.mobile-menu-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.mobile-menu-toggle.active span:nth-child(3) {
+  transform: translateY(-9px) rotate(-45deg);
+}
+
+/* Responsive para la cabecera */
+@media (max-width: 768px) {
+  .header-container {
+    padding: 0 var(--spacing-md);
+    flex-direction: row;
+  }
+
+  .mobile-menu-toggle {
+    display: flex;
+  }
+
+  .logo {
+    margin: 0;
+  }
+}
+
+/* Estilos para pantallas medianas */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header-container {
+    padding: 0 var(--spacing-sm);
+  }
+}

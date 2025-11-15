@@ -13,7 +13,7 @@ export class Router {
   }
 
   addRoute(path, view) {
-    this.routes[path] = `/src/presentation/html/${view}`;
+    this.routes[path] = `src/presentation/html/${view}`;
     return this;
   }
 
@@ -41,6 +41,9 @@ export class Router {
         
         // Aplicar traducciones al contenido cargado dinámicamente
         i18n.applyTranslations();
+        
+        // Disparar evento de contenido cargado para inicializar componentes dinámicos
+        window.dispatchEvent(new CustomEvent('contentLoaded', { detail: { path } }));
       } catch (error) {
         console.error("Error cargando la vista:", error);
         document.getElementById("app-content").innerHTML =

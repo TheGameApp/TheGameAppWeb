@@ -1,9 +1,7 @@
-# 🎮 AuraAlphaApp Web Platform
+# 🎮 TheGameApp Web - Monorepo
 
 <div align="center">
-  <img src="public/images/logo/icon.png" alt="AuraAlphaApp Logo" width="120" />
-  <br>
-  <h3>Master the Art of Social Connections</h3>
+  <h3>Multi-Project Web Platform</h3>
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -12,48 +10,60 @@
   [![Clean Architecture](https://img.shields.io/badge/Clean%20Architecture-6DB33F?style=flat&logoColor=white)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 </div>
 
-## 📱 About AuraAlphaApp
+## 📋 Overview
 
-AuraAlphaApp is a revolutionary platform designed to help users master social connections and improve their dating game. Our AI-powered tools provide personalized strategies, real-time assistance, and progress tracking to enhance your social interactions.
+This monorepo contains multiple web projects for TheGameApp ecosystem, each following Clean Architecture principles.
 
-### ✨ Key Features
+## 🗂️ Projects
 
-- **🤖 Smart Response AI**: Get contextually perfect responses for any conversation
-- **🎯 Status Bait Creator**: Craft engaging social media updates that spark conversations
-- **🔥 Attraction Mastery**: Learn strategic communication techniques for meaningful connections
-- **📊 Progress Tracking**: Monitor your social skills improvement with detailed analytics
-- **🌐 Multi-language Support**: Available in English and Spanish
+### 🎯 [Aura Alpha Web](./apps/aura_alpha_web)
+Landing page for promoting the Aura Alpha app - a revolutionary platform designed to help users master social connections and improve their dating game.
 
-## 🏗️ Project Architecture
+**Key Features:**
+- 🤖 Smart Response AI
+- 🎯 Status Bait Creator
+- 🔥 Attraction Mastery
+- 📊 Progress Tracking
+- 🌐 Multi-language Support (English & Spanish)
 
-This project follows **Clean Architecture** principles, ensuring a modular, maintainable, and testable codebase.
+[View Project →](./apps/aura_alpha_web)
 
-<div align="center">
-  <img src="https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg" alt="Clean Architecture Diagram" width="400" />
-</div>
+---
 
-### 📂 Project Structure
+### 🌍 [Destinated Web](./apps/destinated_web)
+Landing page for promoting the Destinated app - an innovative application that helps users discover and plan their perfect destinations.
+
+**Key Features:**
+- Coming soon...
+
+[View Project →](./apps/destinated_web)
+
+---
+
+## 🏗️ Monorepo Structure
 
 ```
-AuraAlphaAppWeb/
-├── domain/               # Business entities and rules
-│   ├── entities/         # Core business objects
-│   ├── usecases/         # Application-specific business rules
-│   └── repositories/     # Data access interfaces
-├── infrastructure/       # External frameworks and tools
-│   └── repositories/     # Data access implementations
-├── interfaces/           # Adapters between layers
-│   ├── controllers/      # Request/response handlers
-│   └── presenters/       # Data formatters
-├── presentation/         # UI components
-│   ├── views/            # Application views
-│   └── components/       # Reusable UI components
-├── public/               # Static assets
-│   ├── css/              # Stylesheets
-│   ├── js/               # Client-side scripts
-│   ├── images/           # Images and icons
-│   └── fonts/            # Typography
-└── index.html            # Main entry point
+TheGameAppWeb/
+├── apps/
+│   ├── aura_alpha_web/      # Aura Alpha landing page
+│   │   ├── src/
+│   │   │   ├── domain/
+│   │   │   ├── infrastructure/
+│   │   │   ├── interfaces/
+│   │   │   └── presentation/
+│   │   ├── public/
+│   │   └── index.html
+│   │
+│   └── destinated_web/      # Destinated landing page
+│       ├── src/
+│       │   ├── domain/
+│       │   ├── infrastructure/
+│       │   ├── interfaces/
+│       │   └── presentation/
+│       ├── public/
+│       └── index.html
+│
+└── README.md                # This file
 ```
 
 ## 🚀 Getting Started
@@ -69,71 +79,66 @@ AuraAlphaAppWeb/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/AuraAlphaApp/AuraAlphaAppWeb.git
-   cd AuraAlphaAppWeb
+   git clone https://github.com/TheGameApp/TheGameAppWeb.git
+   cd TheGameAppWeb
    ```
 
-2. **Serve the application**
+2. **Navigate to a specific project**
 
-   Since the application uses ES6 modules, you'll need to serve it through a local web server:
+   For Aura Alpha Web:
+   ```bash
+   cd apps/aura_alpha_web
+   ```
+
+   For Destinated Web:
+   ```bash
+   cd apps/destinated_web
+   ```
+
+3. **Serve the application**
+
+   Since the applications use ES6 modules, you'll need to serve them through a local web server:
 
    Using Python:
-
    ```bash
    python -m http.server 8000
    ```
 
    Or using Node.js with a package like `serve`:
-
    ```bash
    npx serve
    ```
 
-3. **Open in your browser**
+4. **Open in your browser**
 
-   Navigate to `http://localhost:8000` (or the port provided by your server)
+   Navigate to `http://localhost:8000`
 
-## 🎨 Design System
+## 🏛️ Architecture
 
-AuraAlphaApp uses a consistent design system with carefully selected colors, typography, and components.
+All projects in this monorepo follow **Clean Architecture** principles:
 
-### 🎭 Typography
+<div align="center">
+  <img src="https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg" alt="Clean Architecture Diagram" width="400" />
+</div>
 
-We use the **Clash Display** font family in various weights:
+### Clean Architecture Layers
 
-- Clash Display Extralight (200)
-- Clash Display Light (300)
-- Clash Display Regular (400)
-- Clash Display Medium (500)
-- Clash Display Semibold (600)
-- Clash Display Bold (700)
+1. **Domain Layer** - Business entities and rules
+2. **Infrastructure Layer** - External frameworks and tools
+3. **Interfaces Layer** - Adapters between layers
+4. **Presentation Layer** - UI components and views
 
-### 🌈 Color Palette
+### Benefits
 
-- **Primary Colors**: Lavender, Cyan, White
-- **Secondary Colors**: Gray, Dark Gray
-- **Accent Colors**: Red, Yellow, Green
-
-## 🌐 Internationalization
-
-AuraAlphaApp supports multiple languages:
-
-- 🇺🇸 English (default)
-- 🇪🇸 Spanish
-
-The application automatically detects the user's browser language and applies the appropriate translations. Users can also manually switch between languages using the language selector in the header.
-
-## 🧩 Clean Architecture Principles
-
-1. **Framework Independence**: The application core doesn't depend on any external frameworks
-2. **Testability**: Business rules can be tested without UI, database, or external elements
-3. **UI Independence**: The interface can change without affecting the rest of the system
-4. **Database Independence**: Storage technology can be swapped without affecting business rules
-5. **External Agency Independence**: Business rules know nothing about the outside world
+- ✅ **Framework Independence**: Core logic doesn't depend on external frameworks
+- ✅ **Testability**: Business rules can be tested in isolation
+- ✅ **UI Independence**: Interface can change without affecting business logic
+- ✅ **Database Independence**: Storage technology can be swapped easily
+- ✅ **Maintainability**: Clear separation of concerns
 
 ## 👨‍💻 Contributing
 
-We welcome contributions to AuraAlphaApp! Please follow these steps:
+We welcome contributions to any project in this monorepo! Please follow these steps:
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -148,10 +153,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 <div align="center">
-  <p>© 2025 AuraAlphaApp.Com All Rights Reserved</p>
+  <p>© 2025 TheGameApp. All Rights Reserved</p>
   <p>
-    <a href="https://github.com/AuraAlphaApp">GitHub</a> •
-    <a href="https://AuraAlphaApp.com">Website</a> •
+    <a href="https://github.com/TheGameApp">GitHub</a> •
     <a href="mailto:thegameapp00@gmail.com">Contact</a>
   </p>
 </div>

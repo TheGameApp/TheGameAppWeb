@@ -1,0 +1,216 @@
+/* Estilos de botones */
+
+/* Botón de descarga general */
+.download-button {
+  background: var(--gradient-primary);
+  color: var(--color-white);
+  padding: 0.8rem 1.5rem;
+  border-radius: var(--border-radius-md);
+  font-family: var(--primary-font);
+  font-weight: 500;
+  text-decoration: none;
+  transition: var(--transition-fast);
+  margin-left: var(--spacing-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.download-button:hover {
+  background: var(--gradient-secondary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-xl);
+}
+
+/* Botones de la sección hero */
+.hero-buttons {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: var(--transition-medium);
+  animation: fadeInUp 0.8s forwards 0.6s;
+}
+
+.hero-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9rem 1.8rem;
+  border-radius: var(--border-radius-md);
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: var(--transition-fast);
+}
+
+.hero-button--primary {
+  background: var(--gradient-primary);
+  color: var(--color-white);
+  box-shadow: var(--shadow-md);
+  animation: pulse 3s infinite ease-in-out;
+  animation-delay: 2s;
+}
+
+.hero-button--primary:hover {
+  background: var(--gradient-secondary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-xl);
+}
+
+.hero-button--secondary {
+  background-color: transparent;
+  color: var(--color-black);
+  display: flex;
+  align-items: center;
+}
+
+.hero-button--secondary .play-icon {
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-white);
+  border-radius: var(--border-radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.8rem;
+  box-shadow: 0 4px 15px rgba(138, 124, 255, 0.2);
+  border: 2px solid rgba(138, 124, 255, 0.1);
+}
+
+.hero-button--secondary:hover {
+  transform: translateY(-2px);
+}
+
+/* Botón CTA */
+.cta-download-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  border-radius: var(--border-radius-md);
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: var(--transition-fast);
+  background: var(--gradient-primary);
+  color: var(--color-white);
+  box-shadow: var(--shadow-md);
+}
+
+.cta-download-button:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-xl);
+}
+
+.cta-download-button img {
+  margin-right: 0.8rem;
+  height: 24px;
+  width: auto;
+}
+
+/* Botón genérico */
+.btn {
+  display: inline-block;
+  background-color: #e8491d;
+  color: var(--color-white);
+  border: none;
+  padding: 0.7rem 1.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: var(--border-radius-sm);
+  transition: var(--transition-fast);
+}
+
+.btn:hover {
+  background-color: #c13c17;
+}
+
+/* Responsive para botones */
+@media (max-width: 768px) {
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .hero-button {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    justify-content: center;
+    font-size: 1rem;
+  }
+
+  .hero-button--secondary {
+    margin-top: 0.5rem;
+  }
+
+  .hero-button--secondary .play-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .hero-button--secondary .play-icon img {
+    width: 14px;
+    height: 14px;
+  }
+
+  .download-button {
+    margin: 0;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--gradient-primary);
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-button {
+    padding: 0.9rem 1.2rem;
+    font-size: 0.95rem;
+  }
+
+  .hero-button--secondary .play-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .hero-button--secondary .play-icon img {
+    width: 12px;
+    height: 12px;
+  }
+
+  .download-button {
+    padding: 0.9rem 1.8rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-button {
+    padding: 0.8rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .hero-button--secondary .play-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .hero-button--secondary .play-icon img {
+    width: 11px;
+    height: 11px;
+  }
+
+  .download-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.95rem;
+  }
+}
